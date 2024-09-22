@@ -1,7 +1,7 @@
 import Image from "next/image";
-import logo from "../public/logo.png";
-import logo_only from "../public/logo_only.png";
-import X from "../public/x.png";
+import logo from "../../public/logo.png";
+import logo_only from "../../public/logo_only.png";
+import X from "../../public/x.png";
 import CollapsibleCard from "@/component/CollapsibleCard";
 import { FaChevronDown } from "react-icons/fa";
 
@@ -19,6 +19,7 @@ export default function Home() {
         </h1>
         <h3 className="textStyle-headline w-full md:w-2/3 text-center">
           With beFundr, contribute to early projects in the most secure way.
+          <br />
           Don&apos;t want to wait for the project&apos;s delivery? Buy an
           available reward directly.
         </h3>
@@ -35,23 +36,23 @@ export default function Home() {
           <CollapsibleCard
             title="More secured"
             text={[
-              "Do you now that 18% of kickstarter tunrover is done on project which never deliver ?",
-              "BeFundr put security at the top level of its priority for contributors. You want to support an early project, that's very positive ; but you should never assume on chance out of five to be scammed.",
-              "With beFundr, contributor has the ability to block a project that gives the impression of not going in the right direction.",
+              "Do you know that 18% of kickstarter tunrover is done on projects which never deliver ?",
+              "BeFundr put security at the top level of its priority for contributors. You want to support an early project, that's very positive ; but you should never assume one chance out of five to be scammed.",
+              "With beFundr, contributors has the ability to block a project that gives the impression of not going in the right direction.",
             ]}
           />
           <CollapsibleCard
             title="More liquid"
             text={[
-              "Average project delirery time is more than one year. Meaning that you put money on a project, and you have to wait a very long time before being able to get back your reward.",
-              "Befundr, allow contributor to go in and out from a project thanks to a contribution marketplace. ",
+              "Average project's delirery time is more than one year. Meaning that you put money on a project, and you have to wait a very long time before being able to get back your reward.",
+              "Befundr, allow contributors to go in and out from a project thanks to a dedicated contributions marketplace. ",
             ]}
           />
           <CollapsibleCard
             title="More profitable"
             text={[
-              "Befundr bringing more security more contributors. But why project founders should assume to be more controlled ?",
-              "To raise more money ! Thanks to part of Marketplace fees that are gave back to project founder.",
+              "Befundr bringing more security for contributors. But why project founders should assume to be more controlled ?",
+              "To raise more money ! Thanks to a part of the Marketplace fees that are gave back to project founder.",
               "If your project attract attention, and generate exhanges on marketplace, you will be the first to get back the benefit !",
             ]}
           />
