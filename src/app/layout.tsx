@@ -22,9 +22,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/logo_32x32.png" sizes="32x32"></link>
       </head>
-      <body
-        className={`${lato.className} bg-main antialiased flex justify-center`}
-      >
+      <body className={`${lato.className} bg-main flex justify-center`}>
         {children}
       </body>
     </html>
