@@ -14,13 +14,13 @@ export default function Home() {
         </div>
         <h1 className="textStyle-title text-center">
           Transfrom Ideas into Reality with{" "}
-          <strong className="text-accent">Secured Crowdfunding</strong>
+          <strong className="text-accent">Secure Crowdfunding</strong>
         </h1>
         <h3 className="textStyle-headline w-full md:w-2/3 text-center">
-          Join a community where trust and innovation drive success.
+          Join a community where trust and innovation drive success
           <br />
           Start your project with the confidence of blockchain security and
-          community support.
+          community support
         </h3>
         <FaChevronDown size={30} className="text-accent animate-bounce" />
       </div>
@@ -29,13 +29,12 @@ export default function Home() {
         <h2 className="textStyle-subtitle !text-main text-center">
           What makes beFundr{" "}
           <strong className="!text-accent">
-            a Game Changer in Crowdfunding
+            a Game Changer in Crowdfunding ?
           </strong>
-          ?
         </h2>
         <div className="flex flex-col items-center justify-start gap-10">
           <CollapsibleCard
-            title="Secured"
+            title="Secure"
             text={[
               "Did you know that 18% of Kickstarter's revenue comes from projects that failed to deliver?",
               "At beFundr, contributor security is our top priority. Supporting early-stage projects is exciting, but no one should face a 1-in-5 chance of being scammed.",
@@ -54,7 +53,7 @@ export default function Home() {
             text={[
               "beFundr brings more security for contributors. But why should project founders accept more oversight?",
               "Because increased security leads to more contributions! With greater trust, contributors are more likely to invest in your project.",
-              "Additionally, a portion of marketplace fees is returned to project founders. If your project attracts attention and drives activity on the marketplace, you’ll be the first to benefit financially !",
+              "Additionally, a portion of marketplace fees is returned to project founders. If your project attracts attention and drives activity on the marketplace, you’ll be the first to benefit financially!",
             ]}
           />
         </div>
@@ -63,12 +62,12 @@ export default function Home() {
       <div className="flex flex-col justify-start items-center gap-10 mb-20  px-4 md:px-0">
         <h2 className="textStyle-subtitle text-center">
           Work in Progress -
-          <strong className="!text-accent"> We&apos;re Working Hard !!</strong>
+          <strong className="!text-accent"> We&apos;re Working Hard!</strong>
         </h2>
         <div className="flex flex-col items-center gap-6">
           <h3 className="textStyle-headline w-full md:w-2/3 text-center">
             beFundr is under development during the solana Colosseum Radar
-            Hackathon.
+            Hackathon
           </h3>
           <div className="flex justify-center items-center gap-1">
             <h3 className="textStyle-headline w-full  text-center ">
@@ -80,7 +79,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <MainButtonLabel label="Follow us !" />
+            <MainButtonLabel label="Follow us on X" />
           </a>
         </div>
       </div>
