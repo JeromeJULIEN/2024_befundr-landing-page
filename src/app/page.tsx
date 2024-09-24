@@ -1,9 +1,8 @@
 import Image from "next/image";
 import logo from "../../public/logo.png";
-import logo_only from "../../public/logo_only.png";
-import X from "../../public/x.png";
 import CollapsibleCard from "@/component/CollapsibleCard";
 import { FaChevronDown } from "react-icons/fa";
+import MainButtonLabel from "@/component/MainButtonLabel";
 
 export default function Home() {
   return (
@@ -14,74 +13,75 @@ export default function Home() {
           <Image alt="logo" src={logo} />
         </div>
         <h1 className="textStyle-title text-center">
-          Your <strong className="text-accent">secured</strong> crowdfunding
-          platform
+          Transfrom Ideas into Reality with{" "}
+          <strong className="text-accent">Secured Crowdfunding</strong>
         </h1>
         <h3 className="textStyle-headline w-full md:w-2/3 text-center">
-          With beFundr, contribute to early projects in the most secure way.
+          Join a community where trust and innovation drive success.
           <br />
-          Don&apos;t want to wait for the project&apos;s delivery? Buy an
-          available reward directly.
+          Start your project with the confidence of blockchain security and
+          community support.
         </h3>
         <FaChevronDown size={30} className="text-accent animate-bounce" />
       </div>
       {/* second block black bg */}
       <div className="bg-black flex flex-col justify-center items-center w-full gap-10 py-10 px-4 md:px-0">
         <h2 className="textStyle-subtitle !text-main text-center">
-          Why befundr{" "}
-          <strong className="!text-accent">change the crowdfunding</strong> game
+          What makes beFundr{" "}
+          <strong className="!text-accent">
+            a Game Changer in Crowdfunding
+          </strong>
           ?
         </h2>
         <div className="flex flex-col items-center justify-start gap-10">
           <CollapsibleCard
-            title="More secured"
+            title="Secured"
             text={[
-              "Do you know that 18% of kickstarter tunrover is done on projects which never deliver ?",
-              "BeFundr put security at the top level of its priority for contributors. You want to support an early project, that's very positive ; but you should never assume one chance out of five to be scammed.",
-              "With beFundr, contributors has the ability to block a project that gives the impression of not going in the right direction.",
+              "Did you know that 18% of Kickstarter's revenue comes from projects that failed to deliver?",
+              "At beFundr, contributor security is our top priority. Supporting early-stage projects is exciting, but no one should face a 1-in-5 chance of being scammed.",
+              "With beFundr, contributors have the power to halt a project if it seems to be veering off course, ensuring a safer crowdfunding experience.",
             ]}
           />
           <CollapsibleCard
-            title="More liquid"
+            title="Liquid"
             text={[
-              "Average project's delirery time is more than one year. Meaning that you put money on a project, and you have to wait a very long time before being able to get back your reward.",
-              "Befundr, allow contributors to go in and out from a project thanks to a dedicated contributions marketplace. ",
+              "The average project delivery time exceeds one year. This means that after investing, you often wait a long time to receive your reward.",
+              "With beFundr, contributors can freely enter or exit a project through a dedicated contributions marketplace, offering more flexibility and control over their investments even when the projects is fully funded.",
             ]}
           />
           <CollapsibleCard
-            title="More profitable"
+            title="Profitable"
             text={[
-              "Befundr bringing more security for contributors. But why project founders should assume to be more controlled ?",
-              "To raise more money ! Thanks to a part of the Marketplace fees that are gave back to project founder.",
-              "If your project attract attention, and generate exhanges on marketplace, you will be the first to get back the benefit !",
+              "beFundr brings more security for contributors. But why should project founders accept more oversight?",
+              "Because increased security leads to more contributions! With greater trust, contributors are more likely to invest in your project.",
+              "Additionally, a portion of marketplace fees is returned to project founders. If your project attracts attention and drives activity on the marketplace, you’ll be the first to benefit financially !",
             ]}
           />
         </div>
       </div>
       {/* second block black bg */}
-      <div className="flex flex-col justify-start items-center gap-10 h-screen  px-4 md:px-0">
+      <div className="flex flex-col justify-start items-center gap-10 mb-20  px-4 md:px-0">
         <h2 className="textStyle-subtitle text-center">
-          Work in progress,
-          <strong className="!text-accent"> but working hard !!</strong>
+          Work in Progress -
+          <strong className="!text-accent"> We&apos;re Working Hard !!</strong>
         </h2>
         <div className="flex flex-col items-center gap-6">
           <h3 className="textStyle-headline w-full md:w-2/3 text-center">
-            Befundr is under development during the solana Coloseum Radar
-            hachathon.
+            beFundr is under development during the solana Colosseum Radar
+            Hackathon.
           </h3>
-          <h3 className="textStyle-headline w-full md:w-2/3 text-center ">
-            To be sure to not miss any news, follow us
-          </h3>
+          <div className="flex justify-center items-center gap-1">
+            <h3 className="textStyle-headline w-full  text-center ">
+              To ensure you don&apos;t miss any updates
+            </h3>
+          </div>
           <a
             href="https://x.com/befundr"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Image alt="x" src={X} width={30} height={30} />
+            <MainButtonLabel label="Follow us !" />
           </a>
-          <div className="relative w-2/3 md:w-1/3 animate-pulse">
-            <Image alt="logo" src={logo_only} />
-          </div>
         </div>
       </div>
     </div>
