@@ -13,7 +13,7 @@ export default function Home() {
           <Image alt="logo" src={logo} />
         </div>
         <h1 className="textStyle-title text-center">
-          Transfrom Ideas into Reality with{" "}
+          Transform Ideas into Reality with{" "}
           <strong className="text-accent">Secure Crowdfunding</strong>
         </h1>
         <h3 className="textStyle-headline w-full md:w-2/3 text-center">
