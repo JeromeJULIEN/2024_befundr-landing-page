@@ -4,7 +4,7 @@ import { Lato } from "next/font/google";
 
 export const metadata: Metadata = {
   title: "beFundr.",
-  description: "Your secured corwdfunding platform",
+  description: "Your secure crowdfunding platform",
 };
 
 const lato = Lato({
