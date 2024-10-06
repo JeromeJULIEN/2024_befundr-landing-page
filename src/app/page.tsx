@@ -16,6 +16,13 @@ export default function Home() {
           Transform Ideas into Reality with{" "}
           <strong className="text-accent">Secure Crowdfunding</strong>
         </h1>
+        <a
+          href="https://app.befundr.xyz/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <MainButtonLabel label="Launch App" />
+        </a>
         <h3 className="textStyle-headline w-full md:w-2/3 text-center">
           Join a community where trust and innovation drive success
           <br />
