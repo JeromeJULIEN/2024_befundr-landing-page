@@ -92,7 +92,7 @@ export default function Home() {
             <MainButtonLabel label="Follow us on X" />
           </a>
           <a
-            href="https://t.me/+YwqaxTgacxgwYWVk"
+            href="https://t.me/+VdmvjEpKrjlkOTFk"
             target="_blank"
             rel="noopener noreferrer"
           >
