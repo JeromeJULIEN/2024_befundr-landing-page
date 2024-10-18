@@ -73,20 +73,30 @@ export default function Home() {
         </h2>
         <div className="flex flex-col items-center gap-6">
           <h3 className="textStyle-headline w-full md:w-2/3 text-center">
-            beFundr is under development during the solana Colosseum Radar
-            Hackathon
+            beFundr has been initiated during the solana Colosseum Radar
+            Hackathon.
+            <br /> Under development
           </h3>
           <div className="flex justify-center items-center gap-1">
             <h3 className="textStyle-headline w-full  text-center ">
-              To ensure you don&apos;t miss any updates
+              To ensure you don&apos;t miss any updates and help us building the
+              new crowfunding standard
             </h3>
           </div>
+          <p className="scale-150">👇</p>
           <a
             href="https://x.com/befundr"
             target="_blank"
             rel="noopener noreferrer"
           >
             <MainButtonLabel label="Follow us on X" />
+          </a>
+          <a
+            href="https://t.me/+YwqaxTgacxgwYWVk"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MainButtonLabel label="Join us on telegram" />
           </a>
         </div>
       </div>
