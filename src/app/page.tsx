@@ -1,6 +1,7 @@
 import Image from "next/image";
 import logo from "../../public/logo.png";
-import CollapsibleCard from "@/component/CollapsibleCard";
+import communities from "../../public/communities.png";
+import funds from "../../public/funds.png";
 import { FaChevronDown } from "react-icons/fa";
 import MainButtonLabel from "@/component/MainButtonLabel";
 
@@ -12,77 +13,104 @@ export default function Home() {
         <div className="relative w-full md:w-2/3">
           <Image alt="logo" src={logo} />
         </div>
-        <h1 className="textStyle-title text-center">
-          Transform Ideas into Reality with{" "}
-          <strong className="text-accent">Secure Crowdfunding</strong>
+        <h1 className="textStyle-title text-center -mt-10">
+          Trust and Fund <strong className="text-accent">Your Community</strong>
         </h1>
-        <a
+        {/* <a
           href="https://app.befundr.xyz/"
           target="_blank"
           rel="noopener noreferrer"
         >
           <MainButtonLabel label="Launch App" />
-        </a>
+        </a> */}
         <h3 className="textStyle-headline w-full md:w-2/3 text-center">
-          Join a community where trust and innovation drive success
+          The blockchain/Web3 has been compromised by untrustworthy individuals…
           <br />
-          Start your project with the confidence of blockchain security and
-          community support
+          …we need to restore trust in the system
+        </h3>
+        <h3 className="textStyle-headline w-full md:w-2/3 text-center !font-bold">
+          With beFundr, back people you trust, keep control of your funds and
+          get project rewards
         </h3>
         <FaChevronDown size={30} className="text-accent animate-bounce" />
       </div>
-      {/* second block black bg */}
-      <div className="bg-black flex flex-col justify-center items-center w-full gap-10 py-10 px-4 md:px-0">
-        <h2 className="textStyle-subtitle !text-main text-center">
-          What makes beFundr{" "}
-          <strong className="!text-accent">
-            a Game Changer in Crowdfunding ?
-          </strong>
+      {/* second block */}
+      <div className=" flex flex-col justify-center items-center w-full gap-10 py-10 pb-20 px-4 md:px-0">
+        <h2 className="textStyle-subtitle text-textColor-main text-center">
+          Back <strong className="!text-accent font-bold">trusted </strong>
+          people
         </h2>
-        <div className="flex flex-col items-center justify-start gap-10">
-          <CollapsibleCard
-            title="Secure"
-            text={[
-              "Did you know that 18% of Kickstarter's revenue comes from projects that failed to deliver?",
-              "At beFundr, contributor security is our top priority. Supporting early-stage projects is exciting, but no one should face a 1-in-5 chance of being scammed.",
-              "With beFundr, contributors have the power to halt a project if it seems to be veering off course, ensuring a safer crowdfunding experience.",
-            ]}
+        <Image
+          src={communities}
+          alt="logo"
+          width={400}
+          height={400}
+          className=""
+        />
+        <p className="textStyle-headline w-full md:w-2/3 text-center">
+          beFUNDR is built by and for Solana&apos;s{" "}
+          <strong className="!text-accent">OG communities</strong>
+        </p>
+        <p className="textStyle-headline w-full md:w-2/3 text-center">
+          On beFUNDR, project founder must be part of one of the OG
+          Solana&apos;s communities. <br />
+          <br />
+          This way, you can be sure that the project you are supporting comes
+          from a real builder, commited to Solana ecosystem.
+        </p>
+        <p className="textStyle-headline w-full md:w-2/3 text-center">
+          In addition, it values communities&apos; assets (token and/or NFT) and
+          provide realtime data on the building activity of their members!
+        </p>
+      </div>
+      {/* second block black bg */}
+      <div className="flex flex-col justify-start items-center gap-10 mb-20  px-4 md:px-0">
+        <h2 className="textStyle-subtitle text-center">
+          <strong className="!text-accent !font-bold">Control</strong> the funds
+        </h2>
+        <div className="relative w-full md:w-2/3 h-[200px] md:h-[300px] flex justify-center items-center">
+          <Image
+            src={funds}
+            alt="logo"
+            fill
+            className="object-contain -mt-10"
           />
-          <CollapsibleCard
-            title="Liquid"
-            text={[
-              "The average project delivery time exceeds one year. This means that after investing, you often wait a long time to receive your reward.",
-              "With beFundr, contributors can freely enter or exit a project through a dedicated contributions marketplace, offering more flexibility and control over their investments even when the projects is fully funded.",
-            ]}
-          />
-          <CollapsibleCard
-            title="Profitable"
-            text={[
-              "beFundr brings more security for contributors. But why should project founders accept more oversight?",
-              "Because increased security leads to more contributions! With greater trust, contributors are more likely to invest in your project.",
-              "Additionally, a portion of marketplace fees is returned to project founders. If your project attracts attention and drives activity on the marketplace, you’ll be the first to benefit financially!",
-            ]}
-          />
+        </div>
+        <div className="flex flex-col items-center gap-6">
+          <h3 className="textStyle-headline w-full md:w-2/3 text-center">
+            Trust may not be enough, so we decentralized it with a
+            milestone-based fund release process
+          </h3>
+          <p className="textStyle-headline w-full md:w-2/3 text-center">
+            From the web3 community, we&apos;re creating project community,
+            where all contributors will vote on whether to approve or deny the
+            fund release requested by the project founder
+          </p>
+          <p className="textStyle-headline w-full md:w-2/3 text-center">
+            As a serious builder, it&apos;s the best way to foster a strong
+            community !
+          </p>
         </div>
       </div>
       {/* second block black bg */}
       <div className="flex flex-col justify-start items-center gap-10 mb-20  px-4 md:px-0">
         <h2 className="textStyle-subtitle text-center">
-          Work in Progress -
-          <strong className="!text-accent"> We&apos;re Working Hard!</strong>
+          Launch your project on beFUNDR{" "}
+          <strong className="!text-accent !font-bold">by 2025</strong>
         </h2>
         <div className="flex flex-col items-center gap-6">
           <h3 className="textStyle-headline w-full md:w-2/3 text-center">
-            beFundr has been initiated during the solana Colosseum Radar
-            Hackathon.
-            <br /> Under development
+            There&apos;s a lot to do, but we&apos;re working hard !
           </h3>
-          <div className="flex justify-center items-center gap-1">
-            <h3 className="textStyle-headline w-full  text-center ">
-              To ensure you don&apos;t miss any updates and help us building the
-              new crowfunding standard
-            </h3>
-          </div>
+          <p className="textStyle-headline w-full md:w-2/3 text-center">
+            Proudly supported by{" "}
+            <strong className="!text-accent">Superteam France</strong> !
+          </p>
+          <p className="textStyle-headline w-full  text-center ">
+            If you don&apos;t want to miss any updates or contact us, as a
+            founder or a community
+          </p>
+
           <p className="scale-150">👇</p>
           <a
             href="https://x.com/befundr"

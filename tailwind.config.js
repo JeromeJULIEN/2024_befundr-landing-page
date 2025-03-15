@@ -20,10 +20,10 @@ const config = {
     },
     extend: {
       colors: {
-        main: "#FDFFFF",
+        main: "#0D0D0D",
         second: "#F4F4F4",
-        accent: "#0A9396",
-        "textColor-main": "#000000",
+        accent: "#08F7E7",
+        "textColor-main": "#FFFFFF",
         "textColor-second": "#666666",
         "custom-red": "#FF4A22",
         "custom-green": "#3DA35D",
