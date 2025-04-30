@@ -72,7 +72,7 @@ export default function Home() {
             …we need to restore trust in the system
           </h3>
           <h3 className="textStyle-headline w-full md:w-2/3 text-center !font-bold">
-            With beFundr, back and support people you trust, keep control of
+            With beFUNDR, back and support people you trust, keep control of
             your funds and get project rewards
           </h3>
           <FaChevronDown size={30} className="text-accent animate-bounce" />
@@ -95,15 +95,16 @@ export default function Home() {
             <strong className="!text-accent">OG communities</strong>
           </p>
           <p className="textStyle-headline w-full md:w-2/3 text-center">
-            On beFUNDR, project founder must be part of one of the OG
-            Solana&apos;s communities. <br />
+            On beFUNDR, project founders must be part of one of the OG Solana
+            communities. <br />
             <br />
             This way, you can be sure that the project you are supporting comes
-            from a real builder, commited to Solana ecosystem.
+            from a real builder, committed to the Solana ecosystem.
           </p>
           <p className="textStyle-headline w-full md:w-2/3 text-center">
-            In addition, it values communities&apos; assets (token and/or NFT)
-            and provide realtime data on the building activity of their members!
+            In addition, it values communities&apos; assets (tokens and/or NFTs)
+            and provides real-time data on the building activity of their
+            members!
           </p>
         </AnimatedBlock>
         {/* second block black bg */}
@@ -126,13 +127,13 @@ export default function Home() {
               milestone-based fund release process
             </h3>
             <p className="textStyle-headline w-full md:w-2/3 text-center">
-              From the web3 community, we&apos;re creating project community,
+              From the Web3 community, we&apos;re creating project communities
               where all contributors will vote on whether to approve or deny the
-              fund release requested by the project founder
+              fund release requested by the project founder.
             </p>
             <p className="textStyle-headline w-full md:w-2/3 text-center">
               As a serious builder, it&apos;s the best way to foster a strong
-              community !
+              community!
             </p>
           </div>
         </AnimatedBlock>
@@ -158,13 +159,13 @@ export default function Home() {
             </strong>
           </p>
           <p className="textStyle-headline w-full md:w-2/3 text-center">
-            While getting a little grant can be a good start, it&apos;s not
+            While getting a small grant can be a good start, it&apos;s not
             enough to build a strong project and reach a structured startup
-            status
+            status.
           </p>
           <p className="textStyle-headline w-full md:w-2/3 text-center">
-            BeFUNDR <strong className="!text-accent">fills the gap</strong> from
-            early wins to professional investors
+            beFUNDR <strong className="!text-accent">fills the gap</strong> from
+            early wins to professional investors.
           </p>
         </AnimatedBlock>
         {/* fourth block */}
@@ -183,13 +184,13 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-center gap-6">
             <h3 className="textStyle-headline w-full md:w-2/3 text-center">
-              There&apos;s a lot to do, but we&apos;re working hard !
+              There&apos;s a lot to do, but we&apos;re working hard!
             </h3>
             <p className="textStyle-headline w-full md:w-2/3 text-center">
               Proudly supported by{" "}
-              <strong className="!text-accent">Superteam France</strong> !
+              <strong className="!text-accent">Superteam France</strong>!
             </p>
-            <p className="textStyle-headline w-full  text-center ">
+            <p className="textStyle-headline w-full text-center">
               If you don&apos;t want to miss any updates or contact us, as a
               founder or a community
             </p>
