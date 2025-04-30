@@ -105,12 +105,12 @@ const config = {
       const newUtilities = {
         ".textStyle-title": {
           color: theme("colors.textColor-main"),
-          fontSize: theme("fontSize.4xl"),
+          fontSize: theme("fontSize.5xl"),
           fontWeight: theme("fontWeight.light"),
         },
         ".textStyle-subtitle": {
           color: theme("colors.textColor-main"),
-          fontSize: theme("fontSize.3xl"),
+          fontSize: theme("fontSize.4xl"),
           fontWeight: theme("fontWeight.light"),
         },
         ".textStyle-headline": {
