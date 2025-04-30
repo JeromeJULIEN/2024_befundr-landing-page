@@ -33,9 +33,9 @@ const AnimatedBlock = ({ children, className = "" }: AnimatedBlockProps) => {
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen">
+    <div className="relative w-full min-h-screen">
       {/* Background Image */}
-      <div className="fixed inset-0 -z-10 bg-neutral-700">
+      <div className="fixed inset-0 -z-10">
         <Image
           src={background}
           alt="background"
@@ -43,16 +43,15 @@ export default function Home() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black/50" />{" "}
-        {/* Overlay pour améliorer la lisibilité */}
+        <div className="absolute inset-0 bg-black/20" />
       </div>
 
       {/* Content */}
-      <div className="flex flex-col items-center justify-center w-full min-h-screen gap-10 relative">
+      <div className="flex flex-col items-center justify-start w-full min-h-screen gap-10 relative">
         {/* first block white bg */}
-        <AnimatedBlock className="flex flex-col justify-center items-center h-screen gap-10 px-4 md:px-0 w-full">
-          <div className="relative w-full md:w-2/3">
-            <Image alt="logo" src={logo} />
+        <AnimatedBlock className="flex flex-col justify-center items-center h-screen gap-10 px-4 md:px-0 w-full pt-20 md:pt-0 ">
+          <div className="relative w-full md:w-2/3 max-w-[600px]">
+            <Image alt="logo" src={logo} className="w-full h-auto" />
           </div>
           <h1 className="textStyle-subtitle md:textStyle-title text-center -mt-10">
             Trust and Fund{" "}
@@ -78,18 +77,19 @@ export default function Home() {
           <FaChevronDown size={30} className="text-accent animate-bounce" />
         </AnimatedBlock>
         {/* second block */}
-        <AnimatedBlock className="flex flex-col justify-center items-center w-full gap-10 py-10 pb-20 px-4 md:px-0 ">
+        <AnimatedBlock className="flex flex-col justify-center items-center w-full gap-10 py-10 pb-20 px-4 md:px-0">
           <h2 className="textStyle-subtitle text-textColor-main text-center">
             Back <strong className="!text-accent font-bold">trusted </strong>
             people
           </h2>
-          <Image
-            src={communities}
-            alt="logo"
-            width={400}
-            height={400}
-            className=""
-          />
+          <div className="relative w-full max-w-[400px] aspect-square">
+            <Image
+              src={communities}
+              alt="communities"
+              fill
+              className="object-contain"
+            />
+          </div>
           <p className="textStyle-headline w-full md:w-2/3 text-center">
             beFUNDR is built by and for Solana&apos;s{" "}
             <strong className="!text-accent">OG communities</strong>
@@ -113,13 +113,8 @@ export default function Home() {
             <strong className="!text-accent !font-bold">Control</strong> the
             funds
           </h2>
-          <div className="relative w-full md:w-2/3 h-[200px] md:h-[300px] flex justify-center items-center mt-10">
-            <Image
-              src={funds}
-              alt="logo"
-              fill
-              className="object-contain -mt-10"
-            />
+          <div className="relative w-full max-w-[600px] aspect-[3/2]">
+            <Image src={funds} alt="funds" fill className="object-contain" />
           </div>
           <div className="flex flex-col items-center gap-6">
             <h3 className="textStyle-headline w-full md:w-2/3 text-center">
@@ -138,20 +133,20 @@ export default function Home() {
           </div>
         </AnimatedBlock>
         {/* third block */}
-        <AnimatedBlock className="flex flex-col justify-center items-center w-full gap-10 py-10 pb-20 px-4 md:px-0 ">
+        <AnimatedBlock className="flex flex-col justify-center items-center w-full gap-10 py-10 pb-20 px-4 md:px-0">
           <h2 className="textStyle-subtitle text-textColor-main text-center">
             Your new{" "}
             <strong className="!text-accent font-bold">funding tool </strong>
             in your founder journey
           </h2>
-          <div className="relative w-full md:w-2/3 h-[200px] md:h-[300px] flex justify-center items-center mt-6">
+          <div className="relative w-full max-w-[600px] aspect-[3/2]">
             <Image
               src={process}
-              alt="logo"
+              alt="process"
               fill
-              className="object-contain -mt-10"
+              className="object-contain"
             />
-          </div>{" "}
+          </div>
           <p className="textStyle-headline w-full md:w-2/3 text-center">
             beFUNDR helps serious builders turn{" "}
             <strong className="!text-accent">
@@ -169,18 +164,13 @@ export default function Home() {
           </p>
         </AnimatedBlock>
         {/* fourth block */}
-        <AnimatedBlock className="flex flex-col justify-start items-center gap-10 mb-20 px-4 md:px-0  w-full">
+        <AnimatedBlock className="flex flex-col justify-start items-center gap-10 mb-20 px-4 md:px-0 w-full">
           <h2 className="textStyle-subtitle text-center">
             Launch your project on beFUNDR{" "}
             <strong className="!text-accent !font-bold">by 2025</strong>
           </h2>
-          <div className="relative w-full md:w-2/3 h-[200px] md:h-[300px] flex justify-center items-center mt-10">
-            <Image
-              src={team}
-              alt="logo"
-              fill
-              className="object-contain -mt-10 "
-            />
+          <div className="relative w-full max-w-[600px] aspect-[3/2]">
+            <Image src={team} alt="team" fill className="object-contain" />
           </div>
           <div className="flex flex-col items-center gap-6">
             <h3 className="textStyle-headline w-full md:w-2/3 text-center">
@@ -215,7 +205,7 @@ export default function Home() {
 
         {/* Footer */}
         <div className="w-full py-6 text-center">
-          <p className="text-textColor-main text-sm font-light">
+          <p className="text-textColor-second text-sm font-light">
             © {new Date().getFullYear()} beFUNDR. All rights reserved.
           </p>
         </div>
