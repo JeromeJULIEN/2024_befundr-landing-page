@@ -9,8 +9,8 @@ import background from "../../public/background.png";
 import team from "../../public/team.png";
 import { FaChevronDown } from "react-icons/fa";
 import MainButtonLabel from "@/component/MainButtonLabel";
-import { motion } from "framer-motion";
-import { ReactNode } from "react";
+import { motion, useInView } from "framer-motion";
+import { ReactNode, useRef } from "react";
 
 interface AnimatedBlockProps {
   children: ReactNode;
@@ -18,12 +18,15 @@ interface AnimatedBlockProps {
 }
 
 const AnimatedBlock = ({ children, className = "" }: AnimatedBlockProps) => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "0px" });
+
   return (
     <motion.div
-      initial={{ opacity: 0, y: 75 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-200px" }}
-      transition={{ duration: 1.0, ease: "easeOut" }}
+      ref={ref}
+      initial={{ opacity: 0, y: 50 }}
+      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+      transition={{ duration: 0.8, ease: "easeOut" }}
       className={className}
     >
       {children}
