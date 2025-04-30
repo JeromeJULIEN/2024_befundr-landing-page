@@ -47,7 +47,12 @@ export const metadata: Metadata = {
       "Back and support people you trust, keep control of your funds and get project rewards with beFUNDR. The community-powered funding platform for Solana builders.",
   },
   icons: {
-    icon: "/icon.png",
+    icon: [
+      { url: "/icon-light.png", media: "(prefers-color-scheme: light)" },
+      { url: "/icon-dark.png", media: "(prefers-color-scheme: dark)" },
+    ],
+    shortcut: "/icon-dark.png",
+    apple: "/icon-dark.png",
   },
 };
 
