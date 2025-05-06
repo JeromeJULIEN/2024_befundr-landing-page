@@ -56,9 +56,9 @@ export default function Home() {
           <div className="relative w-full md:w-2/3 max-w-[600px]">
             <Image alt="logo" src={logo} className="w-full h-auto" />
           </div>
-          <h1 className="textStyle-subtitle md:textStyle-title text-center -mt-10">
-            Trust and Fund{" "}
-            <strong className="text-accent">Your Community</strong>
+          <h1 className="textStyle-subtitle  md:textStyle-title text-center -mt-10">
+            <strong className="text-accent">Fund the Alpha</strong> of your
+            community
           </h1>
           {/* <a
             href="https://app.befundr.xyz/"
@@ -75,7 +75,7 @@ export default function Home() {
           </h3>
           <h3 className="textStyle-headline w-full md:w-2/3 text-center !font-bold">
             With beFUNDR, back and support people you trust, keep control of
-            your funds and get project rewards
+            your funds and get rewarded
           </h3>
           <FaChevronDown size={30} className="text-accent animate-bounce" />
         </AnimatedBlock>
@@ -194,7 +194,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <MainButtonLabel label="Follow us on X" />
+              <MainButtonLabel label="Contact us on X" />
             </a>
             {/* <a
               href="https://t.me/+VdmvjEpKrjlkOTFk"
