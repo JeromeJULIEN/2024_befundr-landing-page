@@ -167,7 +167,7 @@ export default function Home() {
             for builders.
           </p>
           <p className="textStyle-headline w-full md:w-2/3 text-center">
-            Along the way, we connect them to strong{" "}
+            Along the way, we connect them to{" "}
             <strong className="!text-accent">strategic partners</strong> and
             enable community members to{" "}
             <strong className="!text-accent">
