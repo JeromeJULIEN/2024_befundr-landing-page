@@ -56,10 +56,6 @@ export default function Home() {
           <div className="relative w-full md:w-2/3 max-w-[600px]">
             <Image alt="logo" src={logo} className="w-full h-auto" />
           </div>
-          <h1 className="textStyle-subtitle  md:textStyle-title text-center -mt-10">
-            <strong className="text-accent">Fund the Alpha</strong> of your
-            community
-          </h1>
           {/* <a
             href="https://app.befundr.xyz/"
             target="_blank"
@@ -68,21 +64,22 @@ export default function Home() {
             <MainButtonLabel label="Launch App" />
           </a> */}
           <h3 className="textStyle-headline w-full md:w-2/3 text-center">
-            The blockchain/Web3 has been compromised by untrustworthy
-            individuals…
+            While you&apos;re chasing the next Alpha but end up with another
+            shitcoin...
             <br />
-            …we need to restore trust in the system
+            ...Real builders either ship without you, or never get the chance
+            to.
           </h3>
           <h3 className="textStyle-headline w-full md:w-2/3 text-center !font-bold">
-            With beFUNDR, back and support people you trust, keep control of
-            your funds and get rewarded
+            With beFUNDR, get in early to fund and contribute to the next Alpha,
+            led by trusted builders, backed by real communities.
           </h3>
           <FaChevronDown size={30} className="text-accent animate-bounce" />
         </AnimatedBlock>
         {/* second block */}
         <AnimatedBlock className="flex flex-col justify-center items-center w-full gap-10 py-10 pb-20 px-4 md:px-0">
           <h2 className="textStyle-subtitle text-textColor-main text-center">
-            Back <strong className="!text-accent font-bold">trusted </strong>
+            Support <strong className="!text-accent font-bold">trusted </strong>
             people
           </h2>
           <div className="relative w-full max-w-[400px] aspect-square">
@@ -94,53 +91,65 @@ export default function Home() {
             />
           </div>
           <p className="textStyle-headline w-full md:w-2/3 text-center">
-            beFUNDR is built by and for Solana&apos;s{" "}
+            beFUNDR is created for{" "}
+            <strong className="!text-accent">builders</strong> and backed by{" "}
+            <strong className="!text-accent">communities</strong>
+          </p>
+          <p className="textStyle-headline w-full md:w-2/3 text-center">
+            We handpick the most promising projects from the top builders,
+            endorsed by Solana&apos;s{" "}
             <strong className="!text-accent">OG communities</strong>
           </p>
           <p className="textStyle-headline w-full md:w-2/3 text-center">
-            On beFUNDR, project founders must be part of one of the OG Solana
-            communities. <br />
-            <br />
-            This way, you can be sure that the project you are supporting comes
-            from a real builder, committed to the Solana ecosystem.
-          </p>
-          <p className="textStyle-headline w-full md:w-2/3 text-center">
-            In addition, it values communities&apos; assets (tokens and/or NFTs)
-            and provides real-time data on the building activity of their
-            members!
+            Our mission: help the next wave of killer apps emerge. <br />
+            In doing so, we also aim to{" "}
+            <strong className="!text-accent">
+              empower communities and bring value to their assets
+            </strong>{" "}
+            — whether tokens or NFTs.
           </p>
         </AnimatedBlock>
         {/* second block black bg */}
         <AnimatedBlock className="flex flex-col justify-start items-center gap-10 mb-20 px-4 md:px-0 w-full">
           <h2 className="textStyle-subtitle text-center">
-            <strong className="!text-accent !font-bold">Control</strong> the
-            funds
+            Investors, <strong className="!text-accent !font-bold">Fund</strong>{" "}
+            the next Alpha
           </h2>
           <div className="relative w-full max-w-[600px] aspect-[3/2]">
             <Image src={funds} alt="funds" fill className="object-contain" />
           </div>
           <div className="flex flex-col items-center gap-6">
             <h3 className="textStyle-headline w-full md:w-2/3 text-center">
-              Trust may not be enough, so we decentralized it with a
-              milestone-based fund release process
+              beFUNDR helps chosen builders to{" "}
+              <strong className="!text-accent">
+                seamlessly launch their project
+              </strong>{" "}
+              thanks to their community, from fundraising to growth
             </h3>
             <p className="textStyle-headline w-full md:w-2/3 text-center">
-              From the Web3 community, we&apos;re creating project communities
-              where all contributors will vote on whether to approve or deny the
-              fund release requested by the project founder.
+              We start with an initial funding round through an NFT sale,
+              providing the founder with strong{" "}
+              <strong className="!text-accent">
+                essential kickstart capital
+              </strong>
+              .
             </p>
             <p className="textStyle-headline w-full md:w-2/3 text-center">
-              As a serious builder, it&apos;s the best way to foster a strong
-              community!
+              After a 6-month incubation phase, the project is ready to scale
+              through a strong{" "}
+              <strong className="!text-accent">
+                token or tokenized-equity presale
+              </strong>
+              .
             </p>
           </div>
         </AnimatedBlock>
         {/* third block */}
         <AnimatedBlock className="flex flex-col justify-center items-center w-full gap-10 py-10 pb-20 px-4 md:px-0">
           <h2 className="textStyle-subtitle text-textColor-main text-center">
-            Your new{" "}
-            <strong className="!text-accent font-bold">funding tool </strong>
-            in your founder journey
+            Builders, discover your new{" "}
+            <strong className="!text-accent font-bold">one-stop shop </strong>{" "}
+            platform
           </h2>
           <div className="relative w-full max-w-[600px] aspect-[3/2]">
             <Image
@@ -151,22 +160,49 @@ export default function Home() {
             />
           </div>
           <p className="textStyle-headline w-full md:w-2/3 text-center">
-            beFUNDR helps serious builders turn{" "}
+            beFUNDR provides a complete{" "}
             <strong className="!text-accent">
-              early traction into real growth
+              funding and growth solution
+            </strong>{" "}
+            for builders.
+          </p>
+          <p className="textStyle-headline w-full md:w-2/3 text-center">
+            Along the way, we connect them to strong{" "}
+            <strong className="!text-accent">strategic partners</strong> and
+            enable community members to{" "}
+            <strong className="!text-accent">
+              actively support the project
             </strong>
+            , through contributions or promotion.
           </p>
           <p className="textStyle-headline w-full md:w-2/3 text-center">
-            While getting a small grant can be a good start, it&apos;s not
-            enough to build a strong project and reach a structured startup
-            status.
-          </p>
-          <p className="textStyle-headline w-full md:w-2/3 text-center">
-            beFUNDR <strong className="!text-accent">fills the gap</strong> from
-            early wins to professional investors.
+            Our funding process combines a strong{" "}
+            <strong className="!text-accent">seamless launch experience</strong>{" "}
+            with strong{" "}
+            <strong className="!text-accent">
+              fair and transparent valuation
+            </strong>{" "}
+            mechanisms.
           </p>
         </AnimatedBlock>
         {/* fourth block */}
+        {/* third block */}
+        <AnimatedBlock className="flex flex-col justify-center items-center w-full gap-10 py-10 pb-20 px-4 md:px-0">
+          <h2 className="textStyle-subtitle text-textColor-main text-center">
+            Partners, support the{" "}
+            <strong className="!text-accent font-bold">best projects </strong>
+          </h2>
+          <p className="textStyle-headline w-full md:w-2/3 text-center">
+            With carefully selected projects, beFUNDR acts as a{" "}
+            <strong className="!text-accent">trusted curator</strong>,
+            connecting you with the most promising builders and initiatives.
+          </p>
+          <p className="textStyle-headline w-full md:w-2/3 text-center">
+            Cut the noise. Focus on{" "}
+            <strong className="!text-accent">builders that matter</strong>.
+          </p>
+        </AnimatedBlock>
+        {/* fifth block */}
         <AnimatedBlock className="flex flex-col justify-start items-center gap-10 mb-20 px-4 md:px-0 w-full">
           <h2 className="textStyle-subtitle text-center">
             Launch your project on beFUNDR{" "}
