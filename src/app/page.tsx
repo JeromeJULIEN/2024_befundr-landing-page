@@ -178,7 +178,7 @@ export default function Home() {
           <p className="textStyle-headline w-full md:w-2/3 text-center">
             Our funding process combines a{" "}
             <strong className="!text-accent">seamless launch experience</strong>{" "}
-            with strong{" "}
+            with{" "}
             <strong className="!text-accent">
               fair and transparent valuation
             </strong>{" "}
