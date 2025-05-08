@@ -128,7 +128,7 @@ export default function Home() {
             </h3>
             <p className="textStyle-headline w-full md:w-2/3 text-center">
               We start with an initial funding round through an NFT sale,
-              providing the founder with strong{" "}
+              providing the founder with{" "}
               <strong className="!text-accent">
                 essential kickstart capital
               </strong>
@@ -136,7 +136,7 @@ export default function Home() {
             </p>
             <p className="textStyle-headline w-full md:w-2/3 text-center">
               After a 6-month incubation phase, the project is ready to scale
-              through a strong{" "}
+              through a{" "}
               <strong className="!text-accent">
                 token or tokenized-equity presale
               </strong>
@@ -180,9 +180,9 @@ export default function Home() {
             <strong className="!text-accent">seamless launch experience</strong>{" "}
             with{" "}
             <strong className="!text-accent">
-              fair and transparent valuation
+              a fair and transparent valuation
             </strong>{" "}
-            mechanisms.
+            mechanism.
           </p>
         </AnimatedBlock>
         {/* fourth block */}
