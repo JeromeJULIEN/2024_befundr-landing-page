@@ -112,10 +112,10 @@ export default function Home() {
         {/* second block black bg */}
         <AnimatedBlock className="flex flex-col justify-start items-center gap-10 mb-20 px-4 md:px-0 w-full">
           <h2 className="textStyle-subtitle text-center">
-            Investors, <strong className="!text-accent !font-bold">Fund</strong>{" "}
-            the next Alpha
+            The beFUNDR{" "}
+            <strong className="!text-accent !font-bold">funding process</strong>
           </h2>
-          <div className="relative w-full max-w-[600px] aspect-[3/2]">
+          <div className="relative w-full max-w-[900px] aspect-[4/2]">
             <Image src={funds} alt="funds" fill className="object-contain" />
           </div>
           <div className="flex flex-col items-center gap-6">
