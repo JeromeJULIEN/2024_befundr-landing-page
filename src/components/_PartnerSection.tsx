@@ -1,13 +1,11 @@
 "use client";
 
 import { useGetAllCollections } from "@/hooks/dbData/useCollection";
-import { useGetAllPartners } from "@/hooks/dbData/usePartner";
 import { AnimatedBlock } from "./displayElements/AnimatedBlock";
 import CarouselPartner from "./carousel/CarouselPartner";
 
 const PartnerSection = () => {
   const { data: collections } = useGetAllCollections();
-  const { data: partners } = useGetAllPartners();
 
   if (!collections) return null;
 
