@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Lato } from "next/font/google";
+import { Providers } from "@/providers/_providers";
 
 export const metadata: Metadata = {
   title: "beFUNDR | Trust and Fund Your Community on Solana",
@@ -69,7 +70,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="dark">
       <body className={`${lato.className} bg-main flex justify-center`}>
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
