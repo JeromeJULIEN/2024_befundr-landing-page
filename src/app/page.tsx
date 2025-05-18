@@ -67,9 +67,21 @@ export default function Home() {
               autoPlay
               muted
               loop
+              playsInline
               className={`w-full h-full object-cover transition-all duration-[1000ms] ease-in-out ${
                 videoVisible ? "opacity-100 scale-100" : "opacity-0 scale-105"
               }`}
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                WebkitBackfaceVisibility: "hidden",
+                WebkitPerspective: 1000,
+                WebkitTransform: "translate3d(0,0,0)",
+              }}
             />
             <div
               className={`absolute inset-0 transition-opacity duration-[1000ms] ease-in-out ${
@@ -92,11 +104,11 @@ export default function Home() {
               ...Real builders either ship without you, or never get the chance
               to.
             </h3>
-            <h3 className="textStyle-headline w-full md:w-2/3 text-center  text-white">
+            <h3 className="textStyle-headline w-full md:w-2/3 text-center text-white">
               With beFUNDR, get in early to fund and contribute to the next
               Alpha
             </h3>
-            <h3 className="textStyle-headline w-full md:w-2/3 text-center  text-white">
+            <h3 className="textStyle-headline w-full md:w-2/3 text-center text-white">
               beFUNDR is{" "}
               <strong className="text-accent">the Trust Layer</strong>,<br />{" "}
               created for builders, backed by communities
