@@ -95,7 +95,7 @@ export default function Home() {
           {/* Content */}
           <div className="relative z-10 flex flex-col items-center gap-10 w-full">
             <div className="relative w-full md:w-2/3 max-w-[600px]">
-              <Image alt="logo" src={logo} className="w-full h-auto" />
+              <Image alt="logo" src={logo} className="w-full h-auto" priority />
             </div>
             <h3 className="textStyle-headline w-full md:w-2/3 text-center text-white">
               While you&apos;re chasing the next Alpha but end up with another
