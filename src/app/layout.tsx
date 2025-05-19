@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     "solana trust layer",
   ].join(", "),
   openGraph: {
-    title: "beFUNDR | Trust and Fund Your Community on Solana",
+    title: "beFUNDR | The Decentralized Incubator on Solana",
     description:
       "beFUNDR is the Trust Layer for Solana builders, backed by communities. An incubator where trust is a mechanism, not a bottleneck. Get early access to promising projects and contribute to their growth.",
     type: "website",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "beFUNDR | The Trust Layer for Solana Builders",
+    title: "beFUNDR | The Decentralized Incubator on Solana",
     description:
       "beFUNDR is the Trust Layer for Solana builders, backed by communities. An incubator where trust is a mechanism, not a bottleneck. Get early access to promising projects and contribute to their growth.",
   },
