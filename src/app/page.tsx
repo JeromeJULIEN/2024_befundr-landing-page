@@ -53,7 +53,7 @@ export default function Home() {
           className="object-cover"
           priority
         />
-        <div className="absolute inset-0 bg-black/20" />
+        <div className="absolute inset-0 bg-black -z-20" />
       </div>
 
       {/* Content */}
@@ -89,7 +89,7 @@ export default function Home() {
               }`}
             />
             {/* Gradient de fondu en bas */}
-            <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#030303] to-transparent" />
           </div>
 
           {/* Content */}
@@ -106,7 +106,7 @@ export default function Home() {
             </h3>
             <h3 className="textStyle-headline w-full md:w-2/3 text-center text-white">
               With beFUNDR, get in early to fund and contribute to the next
-              Alpha
+              killer dapps
             </h3>
             <h3 className="textStyle-headline w-full md:w-2/3 text-center text-white">
               beFUNDR is{" "}

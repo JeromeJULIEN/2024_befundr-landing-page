@@ -13,7 +13,7 @@ const CarouselCommunity = () => {
   return (
     <div className="relative w-full lg:max-w-6xl overflow-hidden">
       {/* Gradient de fondu à gauche */}
-      <div className="absolute left-0 top-0 bottom-0 w-32 z-10 pointer-events-none bg-gradient-to-r from-black to-transparent" />
+      <div className="absolute left-0 top-0 bottom-0 w-16 lg:w-32 z-10 pointer-events-none bg-gradient-to-r from-[#050505] to-transparent" />
 
       <motion.div
         className="flex gap-4"
@@ -37,7 +37,7 @@ const CarouselCommunity = () => {
       </motion.div>
 
       {/* Gradient de fondu à droite */}
-      <div className="absolute right-0 top-0 bottom-0 w-32 z-10 pointer-events-none bg-gradient-to-l from-black to-transparent" />
+      <div className="absolute right-0 top-0 bottom-0 w-16 lg:w-32 z-10 pointer-events-none bg-gradient-to-l from-[#050505] to-transparent" />
     </div>
   );
 };
