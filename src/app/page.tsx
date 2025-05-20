@@ -11,6 +11,7 @@ import { motion, useInView } from "framer-motion";
 import { ReactNode, useEffect, useRef, useState } from "react";
 import PartnerSection from "@/components/_PartnerSection";
 import CarouselCommunity from "@/components/carousel/CarouselCommunity";
+import FaqSection from "@/components/_FaqSection";
 
 interface AnimatedBlockProps {
   children: ReactNode;
@@ -279,6 +280,7 @@ export default function Home() {
             </a> */}
           </div>
         </AnimatedBlock>
+        <FaqSection />
 
         {/* Footer */}
         <div className="w-full py-6 text-center">
