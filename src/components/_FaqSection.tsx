@@ -135,7 +135,6 @@ const FaqSection = () => {
           </p>
         </FaqQuestionCard>
       </div>
-      );
     </AnimatedBlock>
   );
 };
