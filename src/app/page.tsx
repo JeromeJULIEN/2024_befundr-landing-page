@@ -107,7 +107,7 @@ export default function Home() {
             </h3>
             <h3 className="textStyle-headline w-full md:w-2/3 text-center text-white">
               With beFUNDR, get in early to fund and contribute to the next
-              killer dapps
+              promising projects
             </h3>
             <h3 className="textStyle-headline w-full md:w-2/3 text-center text-white">
               beFUNDR is{" "}
