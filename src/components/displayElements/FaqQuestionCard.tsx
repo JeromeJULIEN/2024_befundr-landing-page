@@ -36,7 +36,7 @@ const FaqQuestionCard = ({ question, children }: FaqQuestionProps) => {
           open ? "max-h-[1000px] py-2" : "max-h-0 py-0"
         }`}
       >
-        {open && <div className="text-body-text text-lg pb-6">{children}</div>}
+        {open && <div className="bodyStyle text-lg pb-6">{children}</div>}
       </div>
     </div>
   );

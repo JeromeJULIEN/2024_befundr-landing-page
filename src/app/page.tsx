@@ -98,18 +98,18 @@ export default function Home() {
             <div className="relative w-full md:w-2/3 max-w-[600px]">
               <Image alt="logo" src={logo} className="w-full h-auto" priority />
             </div>
-            <h3 className="textStyle-headline w-full md:w-2/3 text-center text-white">
+            <h3 className="bodyStyle w-full md:w-2/3 text-center text-white">
               While you&apos;re chasing the next Alpha but end up with another
               shitcoin...
               <br />
               ...Real builders either ship without you, or never get the chance
               to.
             </h3>
-            <h3 className="textStyle-headline w-full md:w-2/3 text-center text-white">
+            <h3 className="bodyStyle w-full md:w-2/3 text-center text-white">
               With beFUNDR, get in early to fund and contribute to the next
               promising projects
             </h3>
-            <h3 className="textStyle-headline w-full md:w-2/3 text-center text-white">
+            <h3 className="bodyStyle w-full md:w-2/3 text-center text-white">
               beFUNDR is{" "}
               <strong className="text-accent">the Trust Layer</strong>,<br />{" "}
               created for builders, backed by communities
@@ -122,21 +122,21 @@ export default function Home() {
             Support <strong className="!text-accent font-bold">trusted </strong>
             people
           </h2>
-          <p className="textStyle-headline w-full md:w-2/3 text-center">
+          <p className="bodyStyle w-full md:w-2/3 text-center">
             An incubator where trust is a mechanism, not a bottleneck
           </p>
-          <p className="textStyle-headline w-full md:w-2/3 text-center -mt-8">
+          <p className="bodyStyle w-full md:w-2/3 text-center -mt-8">
             <strong className="!text-accent">Communities</strong> are the ones
             who make it possible
           </p>
           <CarouselCommunity />
 
-          <p className="textStyle-headline w-full md:w-2/3 text-center">
+          <p className="bodyStyle w-full md:w-2/3 text-center">
             We handpick the most promising projects from the top builders,
             endorsed by Solana&apos;s{" "}
             <strong className="!text-accent">OG communities</strong>
           </p>
-          <p className="textStyle-headline w-full md:w-2/3 text-center">
+          <p className="bodyStyle w-full md:w-2/3 text-center">
             Our mission: help the next wave of killer apps emerge. <br />
             In doing so, we also aim to{" "}
             <strong className="!text-accent">
@@ -152,21 +152,21 @@ export default function Home() {
             Easy <strong className="!text-accent !font-bold">kickstart</strong>,
             real <strong className="!text-accent !font-bold">growth</strong>
           </h2>
-          <p className="textStyle-headline w-full md:w-2/3 text-center">
+          <p className="bodyStyle w-full md:w-2/3 text-center">
             The beFUNDR funding process
           </p>
           <div className="relative w-full max-w-[900px] aspect-[3/1]">
             <Image src={funds} alt="funds" fill className="object-contain " />
           </div>
           <div className="flex flex-col items-center gap-6">
-            <h3 className="textStyle-headline w-full md:w-2/3 text-center">
+            <h3 className="bodyStyle w-full md:w-2/3 text-center">
               beFUNDR helps chosen builders to{" "}
               <strong className="!text-accent">
                 seamlessly launch their project
               </strong>{" "}
               thanks to their community, from fundraising to growth
             </h3>
-            <p className="textStyle-headline w-full md:w-2/3 text-center">
+            <p className="bodyStyle w-full md:w-2/3 text-center">
               We start with an initial funding round through an NFT sale,
               providing the founder with{" "}
               <strong className="!text-accent">
@@ -174,7 +174,7 @@ export default function Home() {
               </strong>
               .
             </p>
-            <p className="textStyle-headline w-full md:w-2/3 text-center">
+            <p className="bodyStyle w-full md:w-2/3 text-center">
               After an incubation phase, the project is ready to scale through a{" "}
               <strong className="!text-accent">
                 token or tokenized-equity presale
@@ -198,14 +198,14 @@ export default function Home() {
               className="object-contain"
             />
           </div>
-          <p className="textStyle-headline w-full md:w-2/3 text-center">
+          <p className="bodyStyle w-full md:w-2/3 text-center">
             beFUNDR provides a complete{" "}
             <strong className="!text-accent">
               funding and growth solution
             </strong>{" "}
             for builders.
           </p>
-          <p className="textStyle-headline w-full md:w-2/3 text-center">
+          <p className="bodyStyle w-full md:w-2/3 text-center">
             Along the way, we connect them to{" "}
             <strong className="!text-accent">strategic partners</strong> and
             enable community members to{" "}
@@ -214,7 +214,7 @@ export default function Home() {
             </strong>
             , through contributions or promotion.
           </p>
-          <p className="textStyle-headline w-full md:w-2/3 text-center">
+          <p className="bodyStyle w-full md:w-2/3 text-center">
             Our funding process combines a{" "}
             <strong className="!text-accent">seamless launch experience</strong>{" "}
             with{" "}
@@ -231,12 +231,12 @@ export default function Home() {
             Partners, support the{" "}
             <strong className="!text-accent font-bold">best projects </strong>
           </h2>
-          <p className="textStyle-headline w-full md:w-2/3 text-center">
+          <p className="bodyStyle w-full md:w-2/3 text-center">
             With carefully selected projects, beFUNDR acts as a{" "}
             <strong className="!text-accent">trusted curator</strong>,
             connecting you with the most promising builders and initiatives.
           </p>
-          <p className="textStyle-headline w-full md:w-2/3 text-center">
+          <p className="bodyStyle w-full md:w-2/3 text-center">
             Cut the noise. Focus on{" "}
             <strong className="!text-accent">builders that matter</strong>.
           </p>
@@ -251,14 +251,14 @@ export default function Home() {
             <Image src={team} alt="team" fill className="object-contain" />
           </div>
           <div className="flex flex-col items-center gap-6">
-            <h3 className="textStyle-headline w-full md:w-2/3 text-center">
+            <h3 className="bodyStyle w-full md:w-2/3 text-center">
               There&apos;s a lot to do, but we&apos;re working hard!
             </h3>
-            <p className="textStyle-headline w-full md:w-2/3 text-center">
+            <p className="bodyStyle w-full md:w-2/3 text-center">
               Proudly supported by{" "}
               <strong className="!text-accent">Superteam France</strong>!
             </p>
-            <p className="textStyle-headline w-full text-center">
+            <p className="bodyStyle w-full text-center">
               If you don&apos;t want to miss any updates or contact us, as a
               founder, partner or a community
             </p>

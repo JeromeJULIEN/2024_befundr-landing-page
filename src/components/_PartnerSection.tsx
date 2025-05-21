@@ -21,12 +21,12 @@ const PartnerSection = () => {
         </p>
 
         <CarouselPartner />
-        <h3 className="textStyle-headline w-full md:w-2/3 text-center mt-6">
+        <h3 className="bodyStyle w-full md:w-2/3 text-center mt-6">
           Our partners play a fundamental role in{" "}
           <strong className="text-accent">the selection and success</strong> of
           projects{" "}
         </h3>
-        <h3>
+        <h3 className="bodyStyle w-full md:w-2/3 text-center mt-6">
           They provide continuous,{" "}
           <strong className="!text-accent">strategic support</strong> throughout
           the incubation

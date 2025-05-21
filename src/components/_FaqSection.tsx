@@ -39,7 +39,7 @@ const FaqSection = () => {
           </p>
 
           <Image
-            src="/images/funding_process.png"
+            src="/fund_process.png"
             alt="befundr funding process"
             width={500}
             height={500}
