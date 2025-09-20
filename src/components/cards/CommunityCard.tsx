@@ -11,10 +11,10 @@ const CommunityCard = ({ community }: { community: Community }) => {
         height={100}
         className="rounded-full mb-4 aspect-square object-cover"
       />
-      <h3 className="h4Style md:h3Style mb-2 w-full line-clamp-1 text-center">
+      <h3 className="h4Style md:h3Style mb-2 w-full line-clamp-2 md:line-clamp-1 text-center">
         {community.name}
       </h3>
-      <p className="bodyStyle text-center w-[190px] md:w-[290px] line-clamp-1 md:line-clamp-2 whitespace-pre-line">
+      <p className="bodyStyle hidden md:block text-center w-[190px] md:w-[290px] line-clamp-1 md:line-clamp-2 whitespace-pre-line">
         {community.description}
       </p>
     </CardLayout>

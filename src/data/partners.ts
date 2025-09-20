@@ -3,8 +3,7 @@ export const PARTNERS: Partner[] = [
     id: "1",
     name: "Codigo",
     logo: "/images/partners/codigo_logo.jpg",
-    description:
-      "End-to-end solana AI dev platform. From smart contract to frontend, build, test & deploy 10x faster",
+    description: "End-to-end solana AI dev platform.",
     incubationRole:
       "Cidogo provide a trial licence of one month for every incubated project and animate a workshop on how use AI in development activities.",
     skills: ["Development", "AI"],
@@ -17,8 +16,7 @@ export const PARTNERS: Partner[] = [
     id: "2",
     name: "Odo | Odomart🌋",
     logo: "/images/partners/odo.jpg",
-    description:
-      "Solana Developer || Working on Codigo || Solana Teacher || Colloseum Winner || @superteam member",
+    description: "Solana Developer || Solana Teacher || @superteam member",
     incubationRole:
       "Odo provide development expertise support.\nHe animated dedicated workshops on how to develop on Solana",
     skills: ["Development"],
@@ -31,8 +29,7 @@ export const PARTNERS: Partner[] = [
     id: "3",
     name: "Superteam France",
     logo: "/images/partners/superteam_logo.jpg",
-    description:
-      "Superteam France is a community of enthusiasts accelerating the growth of the Solana ecosystem in the French-speaking world.",
+    description: "Community of french enthusiasts of the Solana ecosystem.",
     incubationRole:
       "Superteam France core team provide strategic guidance and contact with top players in the Solana ecosystem",
     skills: ["Community", "Strategy"],
@@ -71,8 +68,7 @@ export const PARTNERS: Partner[] = [
     id: "6",
     name: "OxLabs",
     logo: "/images/partners/0xlabs.jpg",
-    description:
-      "We help WEB3 projects get financed, grow their projects, and find the right partners in the space",
+    description: "We help WEB3 projects get financed.",
     incubationRole:
       "0xLabs provide support and contact with top partners in the web3 ecosystem to get granted.\nThey animate workshops on grants and funding",
     skills: ["Grants", "Funding"],
@@ -85,8 +81,7 @@ export const PARTNERS: Partner[] = [
     id: "7",
     name: "D&A Partners",
     logo: "/images/partners/d&a.jpg",
-    description:
-      "The law firm dedicated to the entrepreneurs of the Tech (Blockchain & AI)",
+    description: "The law firm dedicated to the entrepreneurs of the Tech",
     incubationRole:
       "D&A Partners provide legal expertise.\nThey provide to each incubated project a introductory legal analysis ",
     skills: ["Legal"],
@@ -99,7 +94,7 @@ export const PARTNERS: Partner[] = [
     id: "8",
     name: "The intern",
     logo: "/images/partners/theintern.jpg",
-    description: "tools that grow your X account while you sleep",
+    description: "Tools that grow your X account while you sleep",
     incubationRole:
       "The intern provide one month of free access to their tools.\nThey animate workshop on how social media algorythms work",
     skills: ["Social Media"],
@@ -139,8 +134,7 @@ export const PARTNERS: Partner[] = [
     id: "11",
     name: "Ooble studio",
     logo: "/images/partners/ooble.jpg",
-    description:
-      "Creative design agency, crafting Premium Web3 & AI Product Design.",
+    description: "Creative design agency.",
     incubationRole:
       "Ooble provide UX/UI workshop to give you the best insights to make your project as intuitive and user friendly as possible.",
     skills: ["Development", "Advisory"],

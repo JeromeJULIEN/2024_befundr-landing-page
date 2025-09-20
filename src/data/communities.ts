@@ -1,8 +1,5 @@
 // Communities data
 
-
-
-
 export const COMMUNITIES: Community[] = [
   {
     id: "1",
@@ -19,8 +16,7 @@ export const COMMUNITIES: Community[] = [
   {
     id: "2",
     name: "Solana Monke Business",
-    description:
-      "SMB Gen3 is a collection of 15,000 visually stunning pixel art Monke NFTs crafted with love and passion. Express your unique web3 identity and join the thriving MonkeDAO community. Showcase your status as a true builder in web3 and be a part of the revolution with Solana Monke Business.",
+    description: "The Solana builders community",
     image: "/images/communities/monke.png",
     matricaId: "2658a0cc-1d6d-44fa-bde2-482b824e2e50",
     twitter: "https://x.com/SollanaMBS",
@@ -56,8 +52,7 @@ export const COMMUNITIES: Community[] = [
   {
     id: "5",
     name: "Superteam France",
-    description:
-      "Superteam France is a community of enthusiasts accelerating the growth of the Solana ecosystem in the French-speaking world.",
+    description: "Community of french enthusiasts of the Solana ecosystem.",
     image: "/images/communities/superteam_logo.jpg",
     matricaId: "a59d4f17-28c5-443a-a1df-61cac9cdd059",
     twitter: "https://x.com/superteamfrance",
@@ -69,8 +64,7 @@ export const COMMUNITIES: Community[] = [
   {
     id: "6",
     name: "Dead King Society",
-    description:
-      "DKS is a group dedicated to expanding web3 & leading innovation through investment, art, community & experience.",
+    description: "Expanding web3 & leading innovation.",
     image: "/images/communities/DKS_logo.jpg",
     matricaId: "bad81ffa-4a22-4861-b0d2-800a721cfbeb",
     twitter: "https://x.com/DeadKingSociety",
@@ -83,7 +77,7 @@ export const COMMUNITIES: Community[] = [
     id: "7",
     name: "Hot Heads",
     description:
-      "A collection of 100 unique devilish characters from the Underworld🔥 Owned by SerConnorr Art by sikedelic",
+      "A collection of 100 unique devilish characters from the Underworld🔥",
     image: "/images/communities/hotheads_logo.jpg",
     matricaId: "54f9d7cf-08f3-415d-8be4-4d166ebfd3b7",
     twitter: "https://x.com/HotHeadsNFT",
@@ -109,7 +103,7 @@ export const COMMUNITIES: Community[] = [
     id: "9",
     name: "SaveTheWhal3s",
     description:
-      "Exclusive multichain DAO for Whal3s and Contributors to the Ecosystem. 611 Whal3s and 55 Atlanteans saving the deep oceans of De-Fi.",
+      "Exclusive multichain DAO for Whal3s and Contributors to the Ecosystem.",
     image: "/images/communities/saveTheWhales_logo.jpg",
     matricaId: "754d81b7-2bd4-4282-b54f-719b5bbd4eeb",
     twitter: "https://x.com/SaveTheWhal3s",
@@ -134,7 +128,7 @@ export const COMMUNITIES: Community[] = [
     id: "11",
     name: "The Chimpions",
     description:
-      "Art. Capital. Integrity. DAO backing Builders and Artists on Solana | 222 animated and hand-drawn NFTs |",
+      "Art. Capital. Integrity. DAO backing Builders and Artists on Solana",
     image: "/images/communities/chimpions_logo.jpg",
     matricaId: "12166093-97ad-44b5-9d74-a5cbabbeb8a6",
     twitter: "https://x.com/TheChimpions",

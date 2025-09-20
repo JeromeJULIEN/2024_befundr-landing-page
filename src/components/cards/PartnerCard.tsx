@@ -12,7 +12,7 @@ const PartnerCard = ({ partner }: { partner: Partner }) => {
         className="rounded-full mb-4 aspect-square"
       />
       <h3 className="h3Style mb-2 text-center">{partner.name}</h3>
-      <p className="bodyStyle text-center w-[190px] md:w-[290px] line-clamp-1 md:line-clamp-2">
+      <p className="hidden md:block bodyStyle text-center w-[190px] md:w-[290px] line-clamp-1 md:line-clamp-2">
         {partner.description}
       </p>
     </CardLayout>

@@ -122,7 +122,8 @@ export default function Home() {
             real <strong className="!text-accent !font-bold">growth</strong>
           </h2>
           <p className="bodyStyle w-full md:w-2/3 text-center">
-            Launching your project has never been easier! <br />
+            Launching your project has never been easier
+            <br />
             Simply list your project on beFUNDR and start building your
             community. Share progress, gather feedback, engage early supporters
             and when ready, raise funds by launching your token sale.
@@ -148,7 +149,7 @@ export default function Home() {
               Then your project{" "}
               <strong className="!text-accent">
                 is powered by the initial token sale and LP fees
-              </strong>{" "}
+              </strong>
               , giving you the fuel to accelerate with our partner or directly
               with your community.
             </p>
@@ -158,8 +159,7 @@ export default function Home() {
         <AnimatedBlock className="flex flex-col justify-center items-center w-full gap-10 py-10 pb-20 px-4 md:px-0">
           <h2 className="h1Style text-textColor-main text-center">
             Builders, your{" "}
-            <strong className="!text-accent font-bold">one-stop shop </strong>{" "}
-            platform
+            <strong className="!text-accent font-bold">one-stop shop</strong>
           </h2>
           <div className="relative w-full max-w-[600px] aspect-[3/2]">
             <Image
@@ -217,7 +217,7 @@ export default function Home() {
             </h3>
             <p className="bodyStyle w-full md:w-2/3 text-center">
               Proudly supported by{" "}
-              <strong className="!text-accent">Superteam France</strong>!
+              <strong className="!text-accent">Superteam France</strong>
             </p>
             <p className="bodyStyle w-full text-center">
               If you don&apos;t want to miss any updates or contact us, as a
