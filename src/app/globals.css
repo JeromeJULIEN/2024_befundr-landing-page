@@ -62,15 +62,15 @@ button {
 }
 
 .h2Style {
-  @apply text-3xl font-bold text-body-header;
+  @apply text-4xl font-bold text-body-header;
 }
 
 .h3Style {
-  @apply text-2xl font-bold text-body-header;
+  @apply text-3xl font-bold text-body-header;
 }
 
 .h4Style {
-  @apply text-xl font-bold text-body-header;
+  @apply text-2xl font-bold text-body-header;
 }
 
 .bodyStyle {
@@ -78,7 +78,7 @@ button {
 }
 
 .footnoteStyle {
-  @apply text-sm font-normal text-body-text;
+  @apply text-sm font-light text-body-text;
 }
 
 /* Exemple de style custom */
@@ -89,4 +89,23 @@ button {
 ::-webkit-scrollbar-thumb {
   background: #222;
   border-radius: 8px;
+}
+
+/* For carousel: Precise marquee that shifts exactly one content width */
+@keyframes carousel-shift {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(var(--carousel-distance) * -1));
+  }
+}
+
+.carousel-animate {
+  animation: carousel-shift var(--carousel-duration, 30s) linear infinite;
+  will-change: transform;
+}
+
+.carousel-paused-on-hover:hover {
+  animation-play-state: paused;
 }

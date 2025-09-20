@@ -1,0 +1,165 @@
+export const PARTNERS: Partner[] = [
+  {
+    id: "1",
+    name: "Codigo",
+    logo: "/images/partners/codigo_logo.jpg",
+    description:
+      "End-to-end solana AI dev platform. From smart contract to frontend, build, test & deploy 10x faster",
+    incubationRole:
+      "Cidogo provide a trial licence of one month for every incubated project and animate a workshop on how use AI in development activities.",
+    skills: ["Development", "AI"],
+    website: "https://codigo.ai/",
+    twitter: "https://x.com/CodigoPlatform",
+    discord: undefined,
+    telegram: undefined,
+  },
+  {
+    id: "2",
+    name: "Odo | Odomart🌋",
+    logo: "/images/partners/odo.jpg",
+    description:
+      "Solana Developer || Working on Codigo || Solana Teacher || Colloseum Winner || @superteam member",
+    incubationRole:
+      "Odo provide development expertise support.\nHe animated dedicated workshops on how to develop on Solana",
+    skills: ["Development"],
+    website: undefined,
+    twitter: "https://x.com/Odomart",
+    discord: undefined,
+    telegram: undefined,
+  },
+  {
+    id: "3",
+    name: "Superteam France",
+    logo: "/images/partners/superteam_logo.jpg",
+    description:
+      "Superteam France is a community of enthusiasts accelerating the growth of the Solana ecosystem in the French-speaking world.",
+    incubationRole:
+      "Superteam France core team provide strategic guidance and contact with top players in the Solana ecosystem",
+    skills: ["Community", "Strategy"],
+    twitter: "https://x.com/superteamfrance",
+    discord: "https://discord.gg/5hcuDXBf",
+    website: "https://fr.superteam.fun/",
+    telegram: "https://t.me/+k4q93AWItZxiZjQ6",
+  },
+  {
+    id: "4",
+    name: "Collaterize",
+    logo: "/images/partners/collaterize.png",
+    description: "The leading tokenization platform",
+    incubationRole:
+      "Collaterize provide end to end solution for asset or equity tokenazition and RWA guidance for your project.\nThey animate workshops on tokenization and RWA.",
+    skills: ["RWA", "Tokenization"],
+    twitter: "https://x.com/CollaterizeHQ",
+    discord: "https://discord.com/invite/rMZ2ScvQSD",
+    website: "https://collaterize.com/",
+    telegram: undefined,
+  },
+  {
+    id: "5",
+    name: "Hera",
+    logo: "/images/partners/hera.jpg",
+    description: "CMO and advisor. Ex superteam France head of Growth",
+    incubationRole:
+      "Hera provide marketing and advisory expertise. He put you in contact with top players in the Solana ecosystem.",
+    skills: ["Marketing", "Advisory"],
+    twitter: "https://x.com/chainhera",
+    discord: undefined,
+    website: undefined,
+    telegram: undefined,
+  },
+  {
+    id: "6",
+    name: "OxLabs",
+    logo: "/images/partners/0xlabs.jpg",
+    description:
+      "We help WEB3 projects get financed, grow their projects, and find the right partners in the space",
+    incubationRole:
+      "0xLabs provide support and contact with top partners in the web3 ecosystem to get granted.\nThey animate workshops on grants and funding",
+    skills: ["Grants", "Funding"],
+    twitter: "https://x.com/0xlabstech",
+    discord: undefined,
+    website: "https://www.0xlabs.tech/",
+    telegram: undefined,
+  },
+  {
+    id: "7",
+    name: "D&A Partners",
+    logo: "/images/partners/d&a.jpg",
+    description:
+      "The law firm dedicated to the entrepreneurs of the Tech (Blockchain & AI)",
+    incubationRole:
+      "D&A Partners provide legal expertise.\nThey provide to each incubated project a introductory legal analysis ",
+    skills: ["Legal"],
+    twitter: "https://x.com/dna_partners",
+    discord: undefined,
+    website: "https://dnapartners.fr/",
+    telegram: undefined,
+  },
+  {
+    id: "8",
+    name: "The intern",
+    logo: "/images/partners/theintern.jpg",
+    description: "tools that grow your X account while you sleep",
+    incubationRole:
+      "The intern provide one month of free access to their tools.\nThey animate workshop on how social media algorythms work",
+    skills: ["Social Media"],
+    twitter: "https://x.com/theinterndotfun",
+    discord: undefined,
+    website: "https://www.theintern.fun/",
+    telegram: undefined,
+  },
+  {
+    id: "9",
+    name: "Kouga",
+    logo: "/images/partners/kouga.jpg",
+    description:
+      "Grant dev representative at Solana Foundation. Community Lead Europe at Jito Europa.",
+    incubationRole:
+      "Kouga provide support to supercharge your grant applications in the Solana ecosystem.",
+    skills: ["Grants", "Funding"],
+    twitter: "https://x.com/Kougamet",
+    discord: undefined,
+    website: undefined,
+    telegram: undefined,
+  },
+  {
+    id: "10",
+    name: "Ferno",
+    logo: "/images/partners/ferno.jpg",
+    description: "Solana Dev Agency - Blockchain Advisory",
+    incubationRole:
+      "Ferno give access to top builders in the Solana ecosystem to accelerate your project.",
+    skills: ["Development", "Advisory"],
+    twitter: "https://x.com/Ferno_ag",
+    discord: undefined,
+    website: "https://ferno.ag/",
+    telegram: undefined,
+  },
+  {
+    id: "11",
+    name: "Ooble studio",
+    logo: "/images/partners/ooble.jpg",
+    description:
+      "Creative design agency, crafting Premium Web3 & AI Product Design.",
+    incubationRole:
+      "Ooble provide UX/UI workshop to give you the best insights to make your project as intuitive and user friendly as possible.",
+    skills: ["Development", "Advisory"],
+    twitter: "https://x.com/Ferno_ag",
+    discord: undefined,
+    website: "https://ferno.ag/",
+    telegram: undefined,
+  },
+  {
+    id: "12",
+    name: "CoinW",
+    logo: "/images/partners/coinW.png",
+    description: "Leading global crypto exchange. Buy, sell & trade safely.",
+    incubationRole:
+      "CoinW provide support on tokenomics topic and offer a free listing on their exchange for the most successful projects.",
+    skills: ["Tokenomics", "Exchange"],
+    twitter: "https://x.com/CoinWOfficial",
+    discord: undefined,
+    website: "https://www.coinw.com/",
+    telegram: undefined,
+  },
+];

@@ -49,21 +49,30 @@ type UpdateProjectParams = {
   id: PublicKey;
 };
 
-type Collection = {
+type Community = {
+  id: string;
   name: string;
   image: string;
   description: string;
-  address: string;
-  tensorLink: string;
-  website: string;
-  twitter: string;
-  discord: string;
+  matricaId: string;
+  tensorLink?: string;
+  website?: string;
+  twitter?: string;
+  discord?: string;
+  telegram?: string;
 };
 
 type Partner = {
+  id: string;
   name: string;
   logo: string;
   description: string;
+  incubationRole: string;
+  skills: string[];
+  website?: string;
+  twitter?: string;
+  discord?: string;
+  telegram?: string;
 };
 
 type User = {
@@ -110,4 +119,17 @@ interface MissionToCreate {
 
 type GameProgram = {
   points: number;
+};
+
+type Partner = {
+  id: string;
+  name: string;
+  logo: string;
+  description: string;
+  incubationRole: string;
+  skills: string[];
+  website?: string;
+  twitter?: string;
+  discord?: string;
+  telegram?: string;
 };

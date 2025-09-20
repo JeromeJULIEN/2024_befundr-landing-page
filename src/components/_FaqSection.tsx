@@ -11,86 +11,85 @@ const FaqSection = () => {
         </h1>
 
         <h2 className="h2Style mb-6">Builders</h2>
-        <FaqQuestionCard question="When will beFUNDR start accepting project applications?">
+        <FaqQuestionCard question="How do I launch my project on beFUNDR?">
           <p>
-            We are actively working to launch our first incubation cohort in
-            early 2026.
-          </p>
-          <p>
-            Before that, we aim to demonstrate our model by having beFUNDR be
-            the first project to grow through its own ecosystem. We plan to
-            launch our own fundraising campaign in Q3 2025.
+            Launching is simple. If you&apos;re part of our trusted communities,
+            you can list your project directly on beFUNDR. From there, share
+            your progress, gather feedback, and engage your early supporters.
+            Once ready, you can launch your token sale through Jupiter Studio.
           </p>
         </FaqQuestionCard>
-        <FaqQuestionCard question="How does funding work on beFUNDR?">
+        <FaqQuestionCard question="What happens if my token sale succeeds?">
           <p>
-            Funding on beFUNDR happens in two key phases. First, selected
-            projects receive up to <strong>$100k in kickstart funding</strong>,
-            sourced from early adopters during an NFT sale. This gives builders
-            the runway to prototype and engage their community.
+            If your token reaches the migration point of the bonding curve and
+            becomes tradable, your project officially enters the incubation
+            phase. From there, you&apos;ll receive community support, partner
+            workshops, and access to exclusive resources to grow.
           </p>
-          <p>
-            Then comes the <strong>incubation phase</strong>, supported by our
-            Community Skills Hub — a curated network of mentors and
-            contributors. After proving traction, projects move into a{" "}
-            <strong>token or tokenized-equity sale</strong> conducted in 3
-            rounds: first to NFT holders, then to OG communities, and finally to
-            the public.
-          </p>
-
           <Image
-            src="/fund_process.png"
+            src="/images/incubation-process/incubation-selection.png"
             alt="befundr funding process"
             width={500}
             height={500}
-            className="w-2/3 mx-auto my-6"
+            className="w-full md:w-2/3 mx-auto my-6"
           />
+          <p>Then, you earn 40% of the LP fees, fueling your growth.</p>
         </FaqQuestionCard>
 
-        <FaqQuestionCard question="Do I need a token to raise funds with beFUNDR?">
+        <FaqQuestionCard question="Do I need a full team or product before applying?">
           <p>
-            No. beFUNDR allows projects to raise initial capital without needing
-            a live token. You can raise via a kickstart fund supported by the
-            community and prepare for a token or equity sale later during the
-            incubation.
-          </p>
-          <p>
-            Our model is designed to support early builders and reduce pressure
-            to launch prematurely.
+            No. beFUNDR is designed for early builders. You can start with an
+            idea or prototype. What matters is credibility, commitment, and
+            engagement with your community.
           </p>
         </FaqQuestionCard>
-        <h2 className="h2Style mb-6 mt-12">Investors</h2>
-        <FaqQuestionCard question="How do I invest in early projects on beFUNDR?">
+        <FaqQuestionCard question="What support do incubated projects get?">
           <p>
-            Early access is granted via NFT drops representing your commitment
-            to supporting promising projects. As a holder, you gain guaranteed
-            allocation with any additional cost and exclusive access to extra
-            early rounds of token or equity sales from incubated teams.
+            Incubated projects are fueled by their token sale and 40% of the LP
+            fees. Those funds can be used to pay for partner services.
           </p>
+          <Image
+            src="/images/incubation-process/incubation-LP-fee.png"
+            alt="befundr funding process"
+            width={500}
+            height={500}
+            className="w-full md:w-2/3 mx-auto my-6"
+          />
           <p>
-            These projects are selected and supported by trusted OG communities
-            and Solana builders, increasing your chances of spotting
-            high-potential teams early.
+            They also gain access to dedicated Discord channels, ecosystem
+            partners (legal, marketing, development, tokenomics), and our Skills
+            & Missions Hub to recruit teammates or contributors.
+          </p>
+        </FaqQuestionCard>
+        <FaqQuestionCard question="What is the cost of incubation?">
+          <p>beFUNDR take 10% of the LP fees and 2% of the token supply.</p>
+        </FaqQuestionCard>
+        <h2 className="h2Style mb-6 mt-12">Investors</h2>
+        <FaqQuestionCard question="How can I support early projects?">
+          <p>
+            You can invest directly during a project’s token sale on Jupiter
+            Studio. Participation gives you early access, liquidity exposure,
+            and the chance to back credible builders vetted by trusted
+            communities.
           </p>
         </FaqQuestionCard>
 
         <FaqQuestionCard question="What are the risks of supporting early-stage projects?">
           <p>
-            As with all early-stage investments, supporting projects on beFUNDR
-            comes with risk. Some teams may not deliver or pivot.
-          </p>
-          <p>
-            However, our community-focus approach and validation process reduce
-            the risk by ensuring only credible builders with long-term vision
-            receive funding.
+            As with all early-stage ventures, there&apos;s risk. Some teams may
+            pivot or fail. But beFUNDR reduces this risk by aligning incentives
+            around community reputation, transparent on-chain processes, and
+            demand-driven validation.
           </p>
         </FaqQuestionCard>
         <h2 className="h2Style mb-6 mt-12">Communities</h2>
-        <FaqQuestionCard question="How are OG communities involved in project selection?">
+        <FaqQuestionCard question="Why are communities central to beFUNDR?">
           <p>
-            OG communities play a key role in assessing the reputation and
-            credibility of applicants. Their input help determine which teams
-            get kickstart funding and incubation support.
+            Communities are the new trust layer. They help validate projects
+            through investment, provide the first users, and even contribute
+            directly through the Skills & Missions Hub. Unlike traditional
+            incubators, selection and support come from the people who will
+            actually use and build the ecosystem.
           </p>
           <p>
             This decentralized trust layer replaces the need for traditional
@@ -100,38 +99,36 @@ const FaqSection = () => {
 
         <FaqQuestionCard question="How can my community contribute to the beFUNDR ecosystem?">
           <p>
-            Communities can contribute by curating talent, offering mentorship,
-            and even co-incubating projects with local reach or technical
-            expertise.
+            Communities can contribute by endorsing projects, offering
+            mentorship, and even co-incubating projects.
           </p>
           <p>
             Being active in beFUNDR opens doors to early project access and
             reputation-based influence across the ecosystem.
           </p>
+          <p>Want to join our list of communities? Contact us!</p>
         </FaqQuestionCard>
         <h2 className="h2Style mb-6 mt-12">Partners</h2>
-        <FaqQuestionCard question="What kind of partners is beFUNDR looking for?">
+        <FaqQuestionCard question="How can I become a beFUNDR partner?">
           <p>
-            We’re building a robust ecosystem of partners including auditors,
-            infra providers, tokenomics experts, marketing experts, and DAO
-            tools — anything that helps early builders grow sustainably.
-          </p>
-          <p>
-            If you’re aligned with our mission to bring trust and long-term
-            value back to Web3, we’d love to collaborate.
+            We&apos;re looking for Web3-native partners across dev tools, infra,
+            security, legal, tokenomics, and growth. If you want to support
+            credible early builders, reach out through our X account or website.
           </p>
         </FaqQuestionCard>
 
-        <FaqQuestionCard question="How can my service or product support incubated teams?">
+        <FaqQuestionCard question="What role do partners play?">
           <p>
-            beFUNDR selects high-potential teams that often need Web3-native
-            tools, security audits, growth support, and community engagement
-            services. We match them with trusted partners.
+            Partners bring specialized expertise. They provide dedicated
+            workshops and give access to their services to incubated teams.
+            Communities bring energy, but partners bring precision and guidance.
           </p>
+        </FaqQuestionCard>
+        <FaqQuestionCard question="How do projects work with partners?">
           <p>
-            If you&apos;re interested in partnering with beFUNDR, please reach
-            out on our X account and get access to incubated teams and
-            visibility within the community.
+            Teams can use funds from their token sale and LP fees to pay for
+            partner services. This ensures the right expertise at the right
+            time.
           </p>
         </FaqQuestionCard>
       </div>

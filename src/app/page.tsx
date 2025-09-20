@@ -1,16 +1,15 @@
 "use client";
 
 import Image from "next/image";
-import logo from "../../public/logo.png";
-import funds from "../../public/funds.png";
-import process from "../../public/process.png";
-import background from "../../public/background.png";
-import team from "../../public/team.png";
+import logo from "@public/logo.png";
+import incubationSelection from "@public/incubation-selection.png";
+import process from "@public/process.png";
+import background from "@public/background.png";
+import team from "@public/team.png";
 import MainButtonLabel from "@/components/displayElements/MainButtonLabel";
 import { motion, useInView } from "framer-motion";
 import { ReactNode, useEffect, useRef, useState } from "react";
 import PartnerSection from "@/components/_PartnerSection";
-import CarouselCommunity from "@/components/carousel/CarouselCommunity";
 import FaqSection from "@/components/_FaqSection";
 
 interface AnimatedBlockProps {
@@ -98,53 +97,23 @@ export default function Home() {
             <div className="relative w-full md:w-2/3 max-w-[600px]">
               <Image alt="logo" src={logo} className="w-full h-auto" priority />
             </div>
-            <h3 className="bodyStyle w-full md:w-2/3 text-center text-white">
-              While you&apos;re chasing the next Alpha but end up with another
-              shitcoin...
-              <br />
-              ...Real builders either ship without you, or never get the chance
-              to.
+            <h3 className="bodyStyle w-full md:w-2/3 text-center">
+              Stop letting serious projects drown in the memecoin noise of
+              another launchpad.
             </h3>
-            <h3 className="bodyStyle w-full md:w-2/3 text-center text-white">
-              With beFUNDR, get in early to fund and contribute to the next
-              promising projects
+            <h3 className="bodyStyle w-full md:w-2/3 text-center">
+              beFUNDR transforms NFT identity into a trust mechanism: <br />
+              Builders launch transparently, communities invest with confidence,
+              and experts contribute from the ground up.
             </h3>
-            <h3 className="bodyStyle w-full md:w-2/3 text-center text-white">
+            <h3 className="bodyStyle w-full md:w-2/3 text-center ">
               beFUNDR is{" "}
               <strong className="text-accent">the Trust Layer</strong>,<br />{" "}
-              created for builders, backed by communities
+              created for builders, backed by communities.
             </h3>
           </div>
         </AnimatedBlock>
-        {/* second block */}
-        <AnimatedBlock className="flex flex-col justify-center items-center w-full gap-10 py-10 pb-20 px-4 md:px-0">
-          <h2 className="h1Style text-textColor-main text-center">
-            Support <strong className="!text-accent font-bold">trusted </strong>
-            people
-          </h2>
-          <p className="bodyStyle w-full md:w-2/3 text-center">
-            An incubator where trust is a mechanism, not a bottleneck
-          </p>
-          <p className="bodyStyle w-full md:w-2/3 text-center -mt-8">
-            <strong className="!text-accent">Communities</strong> are the ones
-            who make it possible
-          </p>
-          <CarouselCommunity />
-
-          <p className="bodyStyle w-full md:w-2/3 text-center">
-            We handpick the most promising projects from the top builders,
-            endorsed by Solana&apos;s{" "}
-            <strong className="!text-accent">OG communities</strong>
-          </p>
-          <p className="bodyStyle w-full md:w-2/3 text-center">
-            Our mission: help the next wave of killer apps emerge. <br />
-            In doing so, we also aim to{" "}
-            <strong className="!text-accent">
-              empower communities and bring value to their assets
-            </strong>{" "}
-            — whether tokens or NFTs.
-          </p>
-        </AnimatedBlock>
+        {/* partner section */}
         <PartnerSection />
         {/* second block black bg */}
         <AnimatedBlock className="flex flex-col justify-start items-center gap-10 mb-20 px-4 md:px-0 w-full">
@@ -153,33 +122,35 @@ export default function Home() {
             real <strong className="!text-accent !font-bold">growth</strong>
           </h2>
           <p className="bodyStyle w-full md:w-2/3 text-center">
-            The beFUNDR funding process
+            Launching your project has never been easier! <br />
+            Simply list your project on beFUNDR and start building your
+            community. Share progress, gather feedback, engage early supporters
+            and when ready, raise funds by launching your token sale.
+          </p>
+          <p className="bodyStyle !text-accent !font-bold">
+            Real demand means real validation.
           </p>
           <div className="relative w-full max-w-[900px] aspect-[3/1]">
-            <Image src={funds} alt="funds" fill className="object-contain " />
+            <Image
+              src={incubationSelection}
+              alt="funds"
+              fill
+              className="object-contain "
+            />
           </div>
           <div className="flex flex-col items-center gap-6">
-            <h3 className="bodyStyle w-full md:w-2/3 text-center">
-              beFUNDR helps chosen builders to{" "}
-              <strong className="!text-accent">
-                seamlessly launch their project
-              </strong>{" "}
-              thanks to their community, from fundraising to growth
-            </h3>
             <p className="bodyStyle w-full md:w-2/3 text-center">
-              We start with an initial funding round through an NFT sale,
-              providing the founder with{" "}
-              <strong className="!text-accent">
-                essential kickstart capital
-              </strong>
-              .
+              If your token reaches the migration point of the bonding curve and
+              becomes tradable, congratulations! You&apos;re ready to begin
+              incubation.
             </p>
             <p className="bodyStyle w-full md:w-2/3 text-center">
-              After an incubation phase, the project is ready to scale through a{" "}
+              Then your project{" "}
               <strong className="!text-accent">
-                token or tokenized-equity presale
-              </strong>
-              .
+                is powered by the initial token sale and LP fees
+              </strong>{" "}
+              , giving you the fuel to accelerate with our partner or directly
+              with your community.
             </p>
           </div>
         </AnimatedBlock>
@@ -214,27 +185,17 @@ export default function Home() {
             </strong>
             , through contributions or promotion.
           </p>
-          <p className="bodyStyle w-full md:w-2/3 text-center">
-            Our funding process combines a{" "}
-            <strong className="!text-accent">seamless launch experience</strong>{" "}
-            with{" "}
-            <strong className="!text-accent">
-              a fair and transparent valuation
-            </strong>{" "}
-            mechanism.
-          </p>
         </AnimatedBlock>
         {/* fourth block */}
-        {/* third block */}
         <AnimatedBlock className="flex flex-col justify-center items-center w-full gap-10 py-10 pb-20 px-4 md:px-0">
           <h2 className="h1Style text-textColor-main text-center">
-            Partners, support the{" "}
+            Partners, collaborate with the{" "}
             <strong className="!text-accent font-bold">best projects </strong>
           </h2>
           <p className="bodyStyle w-full md:w-2/3 text-center">
-            With carefully selected projects, beFUNDR acts as a{" "}
-            <strong className="!text-accent">trusted curator</strong>,
-            connecting you with the most promising builders and initiatives.
+            Being a beFUNDR partner means working with the most promising
+            builders, backed by{" "}
+            <strong className="!text-accent">secured funding</strong>.{" "}
           </p>
           <p className="bodyStyle w-full md:w-2/3 text-center">
             Cut the noise. Focus on{" "}
