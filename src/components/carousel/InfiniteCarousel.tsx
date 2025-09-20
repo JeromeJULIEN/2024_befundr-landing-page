@@ -75,6 +75,15 @@ const Infinitecarousel: React.FC<Props> = ({
     return contentWidth / speedPxPerSec;
   }, [contentWidth, speedPxPerSec]);
 
+  const [isAnimating, setIsAnimating] = useState(false);
+
+  useEffect(() => {
+    // Attendre que les dimensions soient calculées
+    if (contentWidth > 0 && containerWidth > 0) {
+      setIsAnimating(true);
+    }
+  }, [contentWidth, containerWidth]);
+
   const cssVars: React.CSSProperties = {
     // distance for one loop
     // @ts-expect-error custom property
@@ -89,9 +98,11 @@ const Infinitecarousel: React.FC<Props> = ({
       style={style}
     >
       <div
-        className={`flex ${gapClassName} w-max carousel-animate ${
-          pauseOnHover ? "carousel-paused-on-hover" : ""
-        } ${trackClassName ?? ""}`}
+        className={`flex ${gapClassName} w-max ${
+          isAnimating ? "carousel-animate" : ""
+        } ${pauseOnHover ? "carousel-paused-on-hover" : ""} ${
+          trackClassName ?? ""
+        }`}
         style={cssVars}
       >
         {/* Reference copy (measured width) */}
