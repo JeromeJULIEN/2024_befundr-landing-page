@@ -4,9 +4,9 @@ import { Lato } from "next/font/google";
 import { Providers } from "@/providers/_providers";
 
 export const metadata: Metadata = {
-  title: "beFUNDR | Trust and Fund Your Community on Solana",
+  title: "beFUNDR | The Decentralized and community-driven incubator",
   description:
-    "beFUNDR is the Trust Layer for Solana builders, backed by communities. An incubator where trust is a mechanism, not a bottleneck. Get early access to promising projects and contribute to their growth.",
+    "beFUNDR is the Trust Layer for Solana builders, backed by communities. An incubator which turning NFT identity into a trust mechanism.",
   keywords: [
     "solana incubator",
     "web3 trust layer",
@@ -35,18 +35,18 @@ export const metadata: Metadata = {
     "solana trust layer",
   ].join(", "),
   openGraph: {
-    title: "beFUNDR | The Decentralized Incubator on Solana",
+    title: "beFUNDR | The Decentralized and community-driven incubator",
     description:
-      "beFUNDR is the Trust Layer for Solana builders, backed by communities. An incubator where trust is a mechanism, not a bottleneck. Get early access to promising projects and contribute to their growth.",
+      "beFUNDR is the Trust Layer for Solana builders, backed by communities. An incubator which turning NFT identity into a trust mechanism.",
     type: "website",
     locale: "en_US",
     siteName: "beFUNDR",
   },
   twitter: {
     card: "summary_large_image",
-    title: "beFUNDR | The Decentralized Incubator on Solana",
+    title: "beFUNDR | The Decentralized and community-driven incubator",
     description:
-      "beFUNDR is the Trust Layer for Solana builders, backed by communities. An incubator where trust is a mechanism, not a bottleneck. Get early access to promising projects and contribute to their growth.",
+      "beFUNDR is the Trust Layer for Solana builders, backed by communities. An incubator which turning NFT identity into a trust mechanism.",
   },
   icons: {
     icon: [
