@@ -11,6 +11,7 @@ import { motion, useInView } from "framer-motion";
 import { ReactNode, useEffect, useRef, useState } from "react";
 import PartnerSection from "@/components/_PartnerSection";
 import FaqSection from "@/components/_FaqSection";
+import LaunchAppButton from "@/components/displayElements/LaunchAppButton";
 
 interface AnimatedBlockProps {
   children: ReactNode;
@@ -97,6 +98,7 @@ export default function Home() {
             <div className="relative w-full md:w-2/3 max-w-[600px]">
               <Image alt="logo" src={logo} className="w-full h-auto" priority />
             </div>
+            <LaunchAppButton />
             <h3 className="bodyStyle w-full md:w-2/3 text-center">
               Stop letting serious projects drown in the memecoin noise of
               another launchpad.
