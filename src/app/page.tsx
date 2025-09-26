@@ -107,7 +107,7 @@ export default function Home() {
             </div>
             <LaunchAppButton />
             <h3 className="bodyStyle w-full md:w-2/3 text-center">
-              Stop letting serious projects drown in the memecoin noise.
+              Stop letting real projects drown in the memecoin noise.
               <br />
               <strong className="!text-accent">
                 Good projects deserve a real community.
@@ -121,7 +121,7 @@ export default function Home() {
             <h3 className="bodyStyle w-full md:w-2/3 text-center ">
               beFUNDR is{" "}
               <strong className="text-accent">the Trust Layer</strong>,<br />{" "}
-              created for builders, backed by communities.
+              and your new alpha channel.
             </h3>
           </div>
         </AnimatedBlock>
