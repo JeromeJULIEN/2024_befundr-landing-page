@@ -1,8 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import logo from "@public/logo.png";
-import incubationSelection from "@public/incubation-selection.png";
+import logo_trust_layer from "@public/logo_trust_layer.png";
+
+import incubationSelection2 from "@public/incubation-selection2.png";
+
 import process from "@public/process.png";
 import background from "@public/background.png";
 import team from "@public/team.png";
@@ -96,12 +98,20 @@ export default function Home() {
           {/* Content */}
           <div className="relative z-10 flex flex-col items-center gap-10 w-full">
             <div className="relative w-full md:w-2/3 max-w-[600px]">
-              <Image alt="logo" src={logo} className="w-full h-auto" priority />
+              <Image
+                alt="logo"
+                src={logo_trust_layer}
+                className="w-full h-auto"
+                priority
+              />
             </div>
             <LaunchAppButton />
             <h3 className="bodyStyle w-full md:w-2/3 text-center">
-              Stop letting serious projects drown in the memecoin noise of
-              another launchpad.
+              Stop letting serious projects drown in the memecoin noise.
+              <br />
+              <strong className="!text-accent">
+                Good projects deserve a real community.
+              </strong>
             </h3>
             <h3 className="bodyStyle w-full md:w-2/3 text-center">
               beFUNDR transforms NFT identity into a trust mechanism: <br />
@@ -135,7 +145,7 @@ export default function Home() {
           </p>
           <div className="relative w-full max-w-[900px] aspect-[3/1]">
             <Image
-              src={incubationSelection}
+              src={incubationSelection2}
               alt="funds"
               fill
               className="object-contain "
@@ -144,8 +154,8 @@ export default function Home() {
           <div className="flex flex-col items-center gap-6">
             <p className="bodyStyle w-full md:w-2/3 text-center">
               If your token reaches the migration point of the bonding curve and
-              becomes tradable, congratulations! You&apos;re ready to begin
-              incubation.
+              becomes tradable, congratulations! You&apos;re ready to scale with
+              partners or with your community.
             </p>
             <p className="bodyStyle w-full md:w-2/3 text-center">
               Then your project{" "}
@@ -174,7 +184,7 @@ export default function Home() {
           <p className="bodyStyle w-full md:w-2/3 text-center">
             beFUNDR provides a complete{" "}
             <strong className="!text-accent">
-              funding and growth solution
+              community-driven funding and growth solution
             </strong>{" "}
             for builders.
           </p>

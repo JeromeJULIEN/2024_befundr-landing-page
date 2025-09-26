@@ -13,7 +13,7 @@ const PartnerSection = () => {
           people
         </h2>
         <p className="bodyStyle w-full md:w-2/3 text-center">
-          An incubator where trust is a mechanism, not a bottleneck
+          A social layer where trust is a mechanism, not a bottleneck
         </p>
         <p className="bodyStyle w-full md:w-2/3 text-center -mt-8">
           <strong className="!text-accent">Communities</strong> are the ones who
@@ -35,7 +35,7 @@ const PartnerSection = () => {
           <strong className="text-accent">leading web3 players</strong>
         </h1>
         <p className="bodyStyle mb-6 text-center">
-          Incubated projects are supported by the best partners in the space.
+          Trusted projects are supported by the best partners in the space.
           <br />
           <strong className="text-accent">Accelerate!</strong>{" "}
         </p>
@@ -43,8 +43,8 @@ const PartnerSection = () => {
         <CarouselPartner />
         <h3 className="bodyStyle w-full md:w-2/3 text-center mt-6">
           beFUNDR selects the best partners to provide{" "}
-          <strong className="text-accent">support and expertise</strong> to
-          incubated projects.{" "}
+          <strong className="text-accent">support and expertise</strong> to the
+          endorsed projects.{" "}
         </h3>
       </div>
     </AnimatedBlock>

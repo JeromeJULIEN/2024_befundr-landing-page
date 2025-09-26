@@ -22,12 +22,12 @@ const FaqSection = () => {
         <FaqQuestionCard question="What happens if my token sale succeeds?">
           <p>
             If your token reaches the migration point of the bonding curve and
-            becomes tradable, your project officially enters the incubation
-            phase. From there, you&apos;ll receive community support, partner
+            becomes tradable, your project officially enters the scale up phase.
+            From there, you&apos;ll receive community support, partner
             workshops, and access to exclusive resources to grow.
           </p>
           <Image
-            src="/images/incubation-process/incubation-selection.png"
+            src="/incubation-selection2.png"
             alt="befundr funding process"
             width={500}
             height={500}
@@ -43,9 +43,9 @@ const FaqSection = () => {
             engagement with your community.
           </p>
         </FaqQuestionCard>
-        <FaqQuestionCard question="What support do incubated projects get?">
+        <FaqQuestionCard question="What support do scaled up projects get?">
           <p>
-            Incubated projects are fueled by their token sale and 40% of the LP
+            Scaled up projects are fueled by their token sale and 40% of the LP
             fees. Those funds can be used to pay for partner services.
           </p>
           <Image
@@ -61,7 +61,7 @@ const FaqSection = () => {
             & Missions Hub to recruit teammates or contributors.
           </p>
         </FaqQuestionCard>
-        <FaqQuestionCard question="What is the cost of incubation?">
+        <FaqQuestionCard question="What is the cost of the beFUNDR service?">
           <p>beFUNDR take 10% of the LP fees and 2% of the token supply.</p>
         </FaqQuestionCard>
         <h2 className="h2Style mb-6 mt-12">Investors</h2>
@@ -87,9 +87,9 @@ const FaqSection = () => {
           <p>
             Communities are the new trust layer. They help validate projects
             through investment, provide the first users, and even contribute
-            directly through the Skills & Missions Hub. Unlike traditional
-            incubators, selection and support come from the people who will
-            actually use and build the ecosystem.
+            directly through the Skills & Missions Hub. Unlike incubators,
+            selection and support come from the people who will actually use and
+            build the ecosystem.
           </p>
           <p>
             This decentralized trust layer replaces the need for traditional
@@ -100,7 +100,7 @@ const FaqSection = () => {
         <FaqQuestionCard question="How can my community contribute to the beFUNDR ecosystem?">
           <p>
             Communities can contribute by endorsing projects, offering
-            mentorship, and even co-incubating projects.
+            mentorship or any other support to the projects.
           </p>
           <p>
             Being active in beFUNDR opens doors to early project access and
@@ -120,7 +120,7 @@ const FaqSection = () => {
         <FaqQuestionCard question="What role do partners play?">
           <p>
             Partners bring specialized expertise. They provide dedicated
-            workshops and give access to their services to incubated teams.
+            workshops and give access to their services to supported teams.
             Communities bring energy, but partners bring precision and guidance.
           </p>
         </FaqQuestionCard>
