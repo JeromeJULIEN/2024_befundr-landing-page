@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Rubik+Glitch&display=swap");
 @import "tailwindcss";
 @tailwind utilities;
 
@@ -35,8 +36,8 @@
   --color-custom-gray-200: var(--custom-gray-200);
   --color-body-header: var(--body-header);
   --color-body-text: var(--body-text);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: "Lato", sans-serif;
+  --font-mono: "Lato", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -49,7 +50,7 @@
 body {
   background: var(--background);
   color: var(--body-text);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 button {
@@ -79,6 +80,11 @@ button {
 
 .footnoteStyle {
   @apply text-sm font-light text-body-text;
+}
+
+.markerStyle {
+  font-family: "Lato", sans-serif;
+  @apply text-2xl text-body-header font-light;
 }
 
 /* Exemple de style custom */

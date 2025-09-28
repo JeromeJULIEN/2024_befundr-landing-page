@@ -22,13 +22,12 @@ const PartnerSection = () => {
         <CarouselCommunity />
 
         <p className="bodyStyle w-full md:w-2/3 text-center">
-          There is only one requirement to launch a project on beFUNDR: be part
-          of one of Solana&apos;s{" "}
-          <strong className="!text-accent">OG communities</strong>
+          Want to launch on beFUNDR? One rule: Be a Solana{" "}
+          <strong className="!text-accent">OG community member</strong>
         </p>
         <p className="bodyStyle w-full md:w-2/3 text-center">
-          Real Builders, real Opportunities,{" "}
-          <strong className="!text-accent">real Alpha</strong>{" "}
+          Authentic builders, legit opportunities,{" "}
+          <strong className="!text-accent">Pure Alpha</strong>{" "}
         </p>
         <h1 className="h1Style text-center mt-28">
           Supported by{" "}
