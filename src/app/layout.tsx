@@ -4,9 +4,9 @@ import { Lato } from "next/font/google";
 import { Providers } from "@/providers/_providers";
 
 export const metadata: Metadata = {
-  title: "beFUNDR | The Decentralized and community-driven incubator",
+  title: "beFUNDR | Where trust kickstarts Web3 moonshot",
   description:
-    "beFUNDR is the Trust Layer for Solana builders, backed by communities. An incubator which turning NFT identity into a trust mechanism.",
+    "beFUNDR flips web3 communities into on-chain cred badge: Builders drop transparent launches, communities ape in with confidence, and experts contribute from the ground up.",
   keywords: [
     "solana incubator",
     "web3 trust layer",
@@ -35,18 +35,18 @@ export const metadata: Metadata = {
     "solana trust layer",
   ].join(", "),
   openGraph: {
-    title: "beFUNDR | The Decentralized and community-driven incubator",
+    title: "beFUNDR | Where trust kickstarts Web3 moonshot",
     description:
-      "beFUNDR is the Trust Layer for Solana builders, backed by communities. An incubator which turning NFT identity into a trust mechanism.",
+      "beFUNDR flips web3 communities into on-chain cred badge: Builders drop transparent launches, communities ape in with confidence, and experts contribute from the ground up.",
     type: "website",
     locale: "en_US",
     siteName: "beFUNDR",
   },
   twitter: {
     card: "summary_large_image",
-    title: "beFUNDR | The Decentralized and community-driven incubator",
+    title: "beFUNDR | Where trust kickstarts Web3 moonshot",
     description:
-      "beFUNDR is the Trust Layer for Solana builders, backed by communities. An incubator which turning NFT identity into a trust mechanism.",
+      "beFUNDR flips web3 communities into on-chain cred badge: Builders drop transparent launches, communities ape in with confidence, and experts contribute from the ground up.",
   },
   icons: {
     icon: [

@@ -1,8 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import logo from "@public/logo.png";
-import incubationSelection from "@public/incubation-selection.png";
+import logo_trust_layer from "@public/logo_trust_layer.png";
+
+import incubationSelection2 from "@public/incubation-selection2.png";
+
 import process from "@public/process.png";
 import background from "@public/background.png";
 import team from "@public/team.png";
@@ -96,22 +98,32 @@ export default function Home() {
           {/* Content */}
           <div className="relative z-10 flex flex-col items-center gap-10 w-full">
             <div className="relative w-full md:w-2/3 max-w-[600px]">
-              <Image alt="logo" src={logo} className="w-full h-auto" priority />
+              <Image
+                alt="logo"
+                src={logo_trust_layer}
+                className="w-full h-auto"
+                priority
+              />
             </div>
             <LaunchAppButton />
             <h3 className="bodyStyle w-full md:w-2/3 text-center">
-              Stop letting serious projects drown in the memecoin noise of
-              another launchpad.
+              Sick of watching solid Solana builders get buried under memecoin
+              pump-and-dumps?
+              <br />
+              Welcome to beFUNDR,{" "}
+              <strong className="!text-accent">
+                where trust kickstarts the next Web3 moonshot
+              </strong>
             </h3>
             <h3 className="bodyStyle w-full md:w-2/3 text-center">
-              beFUNDR transforms NFT identity into a trust mechanism: <br />
-              Builders launch transparently, communities invest with confidence,
-              and experts contribute from the ground up.
+              beFUNDR flips web3 communities into on-chain cred badge: <br />
+              Builders drop transparent launches, communities ape in with
+              confidence, and experts contribute from the ground up.
             </h3>
-            <h3 className="bodyStyle w-full md:w-2/3 text-center ">
+            <h3 className="markerStyle w-full md:w-2/3 text-center !font-thin !text-body-text">
               beFUNDR is{" "}
-              <strong className="text-accent">the Trust Layer</strong>,<br />{" "}
-              created for builders, backed by communities.
+              <strong className="text-accent">the Trust Layer</strong>,
+              <br /> igniting web3&apos;s next gem
             </h3>
           </div>
         </AnimatedBlock>
@@ -135,7 +147,7 @@ export default function Home() {
           </p>
           <div className="relative w-full max-w-[900px] aspect-[3/1]">
             <Image
-              src={incubationSelection}
+              src={incubationSelection2}
               alt="funds"
               fill
               className="object-contain "
@@ -144,16 +156,16 @@ export default function Home() {
           <div className="flex flex-col items-center gap-6">
             <p className="bodyStyle w-full md:w-2/3 text-center">
               If your token reaches the migration point of the bonding curve and
-              becomes tradable, congratulations! You&apos;re ready to begin
-              incubation.
+              becomes tradable, congratulations! You&apos;re ready to scale up!
             </p>
             <p className="bodyStyle w-full md:w-2/3 text-center">
-              Then your project{" "}
+              Your project{" "}
               <strong className="!text-accent">
                 is powered by the initial token sale and LP fees
               </strong>
-              , giving you the fuel to accelerate with our partner or directly
-              with your community.
+              , giving you the fuel to accelerate with our partner or your
+              community thanks to{" "}
+              <strong className="!text-accent">The Skills Hub</strong>.
             </p>
           </div>
         </AnimatedBlock>
@@ -174,7 +186,7 @@ export default function Home() {
           <p className="bodyStyle w-full md:w-2/3 text-center">
             beFUNDR provides a complete{" "}
             <strong className="!text-accent">
-              funding and growth solution
+              community-driven funding and growth solution
             </strong>{" "}
             for builders.
           </p>
@@ -185,7 +197,8 @@ export default function Home() {
             <strong className="!text-accent">
               actively support the project
             </strong>
-            , through contributions or promotion.
+            , through contributions in{" "}
+            <strong className="!text-accent">The Missions Hub</strong>.
           </p>
         </AnimatedBlock>
         {/* fourth block */}
