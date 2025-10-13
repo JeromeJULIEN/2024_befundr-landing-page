@@ -79,32 +79,6 @@ export const PARTNERS: Partner[] = [
   },
   {
     id: "7",
-    name: "D&A Partners",
-    logo: "/images/partners/d&a.jpg",
-    description: "The law firm dedicated to the entrepreneurs of the Tech",
-    incubationRole:
-      "D&A Partners provide legal expertise.\nThey provide to each incubated project a introductory legal analysis ",
-    skills: ["Legal"],
-    twitter: "https://x.com/dna_partners",
-    discord: undefined,
-    website: "https://dnapartners.fr/",
-    telegram: undefined,
-  },
-  {
-    id: "8",
-    name: "The intern",
-    logo: "/images/partners/theintern.jpg",
-    description: "Tools that grow your X account while you sleep",
-    incubationRole:
-      "The intern provide one month of free access to their tools.\nThey animate workshop on how social media algorythms work",
-    skills: ["Social Media"],
-    twitter: "https://x.com/theinterndotfun",
-    discord: undefined,
-    website: "https://www.theintern.fun/",
-    telegram: undefined,
-  },
-  {
-    id: "9",
     name: "Kouga",
     logo: "/images/partners/kouga.jpg",
     description:
@@ -118,7 +92,7 @@ export const PARTNERS: Partner[] = [
     telegram: undefined,
   },
   {
-    id: "10",
+    id: "8",
     name: "Ferno",
     logo: "/images/partners/ferno.jpg",
     description: "Solana Dev Agency - Blockchain Advisory",
@@ -131,7 +105,7 @@ export const PARTNERS: Partner[] = [
     telegram: undefined,
   },
   {
-    id: "11",
+    id: "9",
     name: "Ooble studio",
     logo: "/images/partners/ooble.jpg",
     description: "Creative design agency.",
@@ -144,7 +118,7 @@ export const PARTNERS: Partner[] = [
     telegram: undefined,
   },
   {
-    id: "12",
+    id: "10",
     name: "CoinW",
     logo: "/images/partners/coinW.png",
     description: "Leading global crypto exchange. Buy, sell & trade safely.",
